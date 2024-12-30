@@ -1,0 +1,1730 @@
+time="2024-12-30T01:20:26-05:00" level=warning msg="/Users/jimjimbo/coding/projects/compiled-site/personal/compiled-website/docker-compose.yml: `version` is obsolete"
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [site internal] load build definition from Dockerfile
+#1 transferring dockerfile: 992B done
+#1 DONE 0.0s
+
+#2 [site internal] load metadata for docker.io/library/haskell:9.4
+#2 DONE 1.2s
+
+#3 [site internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [site internal] load build context
+#4 transferring context: 4.27kB done
+#4 DONE 0.0s
+
+#5 [site stage-1  1/10] FROM docker.io/library/haskell:9.4@sha256:a95a49ac162ac85b51c5d75e8bb1133602732317725a14b5a48ffe19ca9d0ebb
+#5 resolve docker.io/library/haskell:9.4@sha256:a95a49ac162ac85b51c5d75e8bb1133602732317725a14b5a48ffe19ca9d0ebb done
+#5 sha256:24689a94336e8f945c7067b3bde81988698f46326e1630f43517927337f8709f 0B / 10.12MB 0.1s
+#5 sha256:a95a49ac162ac85b51c5d75e8bb1133602732317725a14b5a48ffe19ca9d0ebb 549B / 549B done
+#5 sha256:3185c87443b931c8cb7730b97f644eacb1a4f6dbf7ac6b2461f367eb00e40487 9.40kB / 9.40kB done
+#5 sha256:e3c0675e0cbaa10b291f647cc01f04bb16830a0cce41de8e23c1f169edcb5034 0B / 23.75MB 0.1s
+#5 sha256:71baa6761ed307efa293801b20c4401928799760530965154189705fca4d7c8f 0B / 477.15MB 0.1s
+#5 sha256:b7dbd94ff14b1484154202e6edd05ea12a70ab24680c123d91cc948af457e985 2.01kB / 2.01kB done
+#5 sha256:e3c0675e0cbaa10b291f647cc01f04bb16830a0cce41de8e23c1f169edcb5034 5.24MB / 23.75MB 0.5s
+#5 sha256:24689a94336e8f945c7067b3bde81988698f46326e1630f43517927337f8709f 1.05MB / 10.12MB 0.7s
+#5 sha256:e3c0675e0cbaa10b291f647cc01f04bb16830a0cce41de8e23c1f169edcb5034 10.25MB / 23.75MB 0.7s
+#5 sha256:e3c0675e0cbaa10b291f647cc01f04bb16830a0cce41de8e23c1f169edcb5034 11.53MB / 23.75MB 0.8s
+#5 sha256:24689a94336e8f945c7067b3bde81988698f46326e1630f43517927337f8709f 4.19MB / 10.12MB 1.0s
+#5 sha256:e3c0675e0cbaa10b291f647cc01f04bb16830a0cce41de8e23c1f169edcb5034 15.73MB / 23.75MB 1.0s
+#5 sha256:24689a94336e8f945c7067b3bde81988698f46326e1630f43517927337f8709f 5.24MB / 10.12MB 1.2s
+#5 sha256:e3c0675e0cbaa10b291f647cc01f04bb16830a0cce41de8e23c1f169edcb5034 20.97MB / 23.75MB 1.2s
+#5 sha256:24689a94336e8f945c7067b3bde81988698f46326e1630f43517927337f8709f 6.29MB / 10.12MB 1.3s
+#5 sha256:e3c0675e0cbaa10b291f647cc01f04bb16830a0cce41de8e23c1f169edcb5034 23.07MB / 23.75MB 1.3s
+#5 extracting sha256:e3c0675e0cbaa10b291f647cc01f04bb16830a0cce41de8e23c1f169edcb5034
+#5 sha256:24689a94336e8f945c7067b3bde81988698f46326e1630f43517927337f8709f 7.34MB / 10.12MB 1.4s
+#5 sha256:e3c0675e0cbaa10b291f647cc01f04bb16830a0cce41de8e23c1f169edcb5034 23.75MB / 23.75MB 1.4s done
+#5 sha256:24689a94336e8f945c7067b3bde81988698f46326e1630f43517927337f8709f 8.39MB / 10.12MB 1.5s
+#5 sha256:24689a94336e8f945c7067b3bde81988698f46326e1630f43517927337f8709f 10.12MB / 10.12MB 1.6s done
+#5 extracting sha256:e3c0675e0cbaa10b291f647cc01f04bb16830a0cce41de8e23c1f169edcb5034 0.3s done
+#5 extracting sha256:24689a94336e8f945c7067b3bde81988698f46326e1630f43517927337f8709f
+#5 extracting sha256:24689a94336e8f945c7067b3bde81988698f46326e1630f43517927337f8709f 0.2s done
+#5 sha256:71baa6761ed307efa293801b20c4401928799760530965154189705fca4d7c8f 26.21MB / 477.15MB 2.5s
+#5 sha256:71baa6761ed307efa293801b20c4401928799760530965154189705fca4d7c8f 52.43MB / 477.15MB 3.4s
+#5 sha256:71baa6761ed307efa293801b20c4401928799760530965154189705fca4d7c8f 77.59MB / 477.15MB 4.1s
+#5 sha256:71baa6761ed307efa293801b20c4401928799760530965154189705fca4d7c8f 103.81MB / 477.15MB 5.0s
+#5 sha256:71baa6761ed307efa293801b20c4401928799760530965154189705fca4d7c8f 128.97MB / 477.15MB 5.7s
+#5 sha256:71baa6761ed307efa293801b20c4401928799760530965154189705fca4d7c8f 154.14MB / 477.15MB 6.4s
+#5 sha256:71baa6761ed307efa293801b20c4401928799760530965154189705fca4d7c8f 183.50MB / 477.15MB 7.3s
+#5 sha256:71baa6761ed307efa293801b20c4401928799760530965154189705fca4d7c8f 212.86MB / 477.15MB 8.1s
+#5 sha256:71baa6761ed307efa293801b20c4401928799760530965154189705fca4d7c8f 241.17MB / 477.15MB 8.9s
+#5 sha256:71baa6761ed307efa293801b20c4401928799760530965154189705fca4d7c8f 268.44MB / 477.15MB 9.7s
+#5 sha256:71baa6761ed307efa293801b20c4401928799760530965154189705fca4d7c8f 292.55MB / 477.15MB 10.4s
+#5 sha256:71baa6761ed307efa293801b20c4401928799760530965154189705fca4d7c8f 322.96MB / 477.15MB 11.4s
+#5 sha256:71baa6761ed307efa293801b20c4401928799760530965154189705fca4d7c8f 347.08MB / 477.15MB 12.3s
+#5 sha256:71baa6761ed307efa293801b20c4401928799760530965154189705fca4d7c8f 374.34MB / 477.15MB 13.3s
+#5 sha256:71baa6761ed307efa293801b20c4401928799760530965154189705fca4d7c8f 398.46MB / 477.15MB 14.0s
+#5 sha256:71baa6761ed307efa293801b20c4401928799760530965154189705fca4d7c8f 422.58MB / 477.15MB 14.8s
+#5 sha256:71baa6761ed307efa293801b20c4401928799760530965154189705fca4d7c8f 446.69MB / 477.15MB 15.5s
+#5 sha256:71baa6761ed307efa293801b20c4401928799760530965154189705fca4d7c8f 471.86MB / 477.15MB 16.2s
+#5 extracting sha256:71baa6761ed307efa293801b20c4401928799760530965154189705fca4d7c8f
+#5 sha256:71baa6761ed307efa293801b20c4401928799760530965154189705fca4d7c8f 477.15MB / 477.15MB 16.9s done
+#5 extracting sha256:71baa6761ed307efa293801b20c4401928799760530965154189705fca4d7c8f 5.1s
+#5 extracting sha256:71baa6761ed307efa293801b20c4401928799760530965154189705fca4d7c8f 10.2s
+#5 extracting sha256:71baa6761ed307efa293801b20c4401928799760530965154189705fca4d7c8f 13.0s done
+#5 DONE 30.9s
+
+#6 [site stage-1  2/10] WORKDIR /app
+#6 DONE 0.2s
+
+#7 [site stage-1  3/10] RUN apt-get update &&     apt-get install -y     libgmp-dev     zlib1g-dev     && rm -rf /var/lib/apt/lists/*
+#7 0.532 Get:1 http://deb.debian.org/debian buster InRelease [122 kB]
+#7 0.603 Get:2 http://deb.debian.org/debian-security buster/updates InRelease [34.8 kB]
+#7 0.634 Get:3 http://deb.debian.org/debian buster-updates InRelease [56.6 kB]
+#7 0.707 Get:4 http://deb.debian.org/debian buster/main arm64 Packages [7737 kB]
+#7 1.681 Get:5 http://deb.debian.org/debian-security buster/updates/main arm64 Packages [600 kB]
+#7 1.743 Get:6 http://deb.debian.org/debian buster-updates/main arm64 Packages [8780 B]
+#7 2.452 Fetched 8559 kB in 2s (3860 kB/s)
+#7 2.452 Reading package lists...
+#7 2.827 Reading package lists...
+#7 3.190 Building dependency tree...
+#7 3.256 Reading state information...
+#7 3.327 libgmp-dev is already the newest version (2:6.1.2+dfsg-4+deb10u1).
+#7 3.327 zlib1g-dev is already the newest version (1:1.2.11.dfsg-1+deb10u2).
+#7 3.327 0 upgraded, 0 newly installed, 0 to remove and 7 not upgraded.
+#7 DONE 3.4s
+
+#8 [site stage-1  4/10] RUN mkdir -p /opt/build
+#8 DONE 0.1s
+
+#9 [site stage-1  5/10] WORKDIR /opt/build
+#9 DONE 0.0s
+
+#10 [site stage-1  6/10] COPY compiled-website.cabal ./
+#10 DONE 0.0s
+
+#11 [site stage-1  7/10] COPY cabal.project* ./
+#11 DONE 0.0s
+
+#12 [site stage-1  8/10] RUN cabal update &&     cabal build --only-dependencies &&     cabal clean
+#12 0.115 Config file path source is default config file.
+#12 0.115 Config file not found: /root/.config/cabal/config
+#12 0.119 Writing default configuration to /root/.config/cabal/config
+#12 0.541 Downloading the latest package list from hackage.haskell.org
+#12 15.20 Package list of hackage.haskell.org has been updated.
+#12 15.20 The index-state is set to 2024-12-30T03:19:09Z.
+#12 16.18 Resolving dependencies...
+#12 19.31 Build profile: -w ghc-9.4.8 -O1
+#12 19.31 In order, the following will be built (use -v for more details):
+#12 19.31  - HsYAML-0.2.1.4 (lib) (requires download & build)
+#12 19.31  - OneTuple-0.4.2 (lib) (requires download & build)
+#12 19.31  - SHA-1.6.4.4 (lib) (requires download & build)
+#12 19.31  - StateVar-1.2.2 (lib) (requires download & build)
+#12 19.31  - appar-0.1.8 (lib:appar) (requires download & build)
+#12 19.31  - assoc-1.1.1 (lib) (requires download & build)
+#12 19.31  - attoparsec-0.14.4 (lib:attoparsec-internal) (requires download & build)
+#12 19.31  - auto-update-0.2.6 (lib) (requires download & build)
+#12 19.31  - base-orphans-0.9.3 (lib) (requires download & build)
+#12 19.31  - base16-bytestring-1.0.2.0 (lib) (requires download & build)
+#12 19.31  - base64-bytestring-1.2.1.0 (lib) (requires download & build)
+#12 19.31  - basement-0.0.16 (lib) (requires download & build)
+#12 19.31  - blaze-builder-0.4.2.3 (lib) (requires download & build)
+#12 19.31  - bsb-http-chunked-0.0.0.4 (lib) (requires download & build)
+#12 19.31  - byteorder-1.0.4 (lib:byteorder) (requires download & build)
+#12 19.31  - call-stack-0.4.0 (lib) (requires download & build)
+#12 19.31  - cereal-0.5.8.3 (lib) (requires download & build)
+#12 19.31  - colour-2.3.6 (lib) (requires download & build)
+#12 19.31  - data-default-class-0.1.2.2 (lib) (requires download & build)
+#12 19.31  - digest-0.0.2.1 (lib) (requires download & build)
+#12 19.31  - dlist-1.0 (lib) (requires download & build)
+#12 19.31  - emojis-0.1.4.1 (lib) (requires download & build)
+#12 19.31  - haddock-library-1.11.0 (lib) (requires download & build)
+#12 19.31  - happy-lib-2.1.3 (lib:grammar) (requires download & build)
+#12 19.31  - haskell-lexer-1.1.2 (lib) (requires download & build)
+#12 19.31  - hourglass-0.2.12 (lib) (requires download & build)
+#12 19.31  - integer-logarithms-1.0.4 (lib) (requires download & build)
+#12 19.31  - jira-wiki-markup-1.4.0 (lib) (requires download & build)
+#12 19.31  - libyaml-clib-0.2.5 (lib) (requires download & build)
+#12 19.31  - lua-2.2.1 (lib) (requires download & build)
+#12 19.31  - mime-types-0.1.2.0 (lib) (requires download & build)
+#12 19.31  - network-byte-order-0.1.7 (lib) (requires download & build)
+#12 19.31  - old-locale-1.0.0.7 (lib) (requires download & build)
+#12 19.31  - os-string-2.0.7 (lib) (requires download & build)
+#12 19.31  - primitive-0.8.0.0 (lib) (requires download & build)
+#12 19.31  - regex-base-0.94.0.2 (lib) (requires download & build)
+#12 19.31  - safe-0.3.21 (lib) (requires download & build)
+#12 19.31  - safe-exceptions-0.1.7.4 (lib) (requires download & build)
+#12 19.31  - sop-core-0.5.0.2 (lib) (requires download & build)
+#12 19.31  - split-0.2.5 (lib) (requires download & build)
+#12 19.31  - splitmix-0.1.1 (lib) (requires download & build)
+#12 19.31  - syb-0.7.2.4 (lib) (requires download & build)
+#12 19.31  - tagged-0.8.9 (lib) (requires download & build)
+#12 19.31  - tagsoup-0.14.8 (lib) (requires download & build)
+#12 19.31  - th-abstraction-0.5.0.0 (lib) (requires download & build)
+#12 19.31  - th-compat-0.1.6 (lib) (requires download & build)
+#12 19.31  - time-1.11.1.2 (lib:time) (requires download & build)
+#12 19.31  - transformers-compat-0.7.2 (lib) (requires download & build)
+#12 19.31  - unicode-data-0.6.0 (lib) (requires download & build)
+#12 19.31  - unliftio-core-0.2.1.0 (lib) (requires download & build)
+#12 19.31  - utf8-string-1.0.2 (lib) (requires download & build)
+#12 19.31  - vector-stream-0.1.0.1 (lib) (requires download & build)
+#12 19.31  - word8-0.1.3 (lib) (requires download & build)
+#12 19.31  - xml-1.3.14 (lib:xml) (requires download & build)
+#12 19.31  - xml-types-0.3.8 (lib) (requires download & build)
+#12 19.31  - zlib-0.6.3.0 (lib) (requires download & build)
+#12 19.31  - contravariant-1.5.5 (lib) (requires download & build)
+#12 19.31  - time-manager-0.2.2 (lib) (requires download & build)
+#12 19.31  - some-1.0.6 (lib) (requires download & build)
+#12 19.31  - generically-0.1.1 (lib) (requires download & build)
+#12 19.31  - text-conversions-0.3.1.1 (lib) (requires download & build)
+#12 19.31  - memory-0.18.0 (lib) (requires download & build)
+#12 19.31  - blaze-markup-0.8.3.0 (lib) (requires download & build)
+#12 19.31  - HUnit-1.6.2.0 (lib) (requires download & build)
+#12 19.31  - ansi-terminal-types-0.11.5 (lib) (requires download & build)
+#12 19.31  - data-default-instances-containers-0.1.0.3 (lib) (requires download & build)
+#12 19.31  - data-default-instances-dlist-0.0.1.2 (lib) (requires download & build)
+#12 19.31  - happy-lib-2.1.3 (lib:tabular) (requires download & build)
+#12 19.31  - happy-lib-2.1.3 (lib:frontend) (requires download & build)
+#12 19.31  - lpeg-1.0.4 (lib) (requires download & build)
+#12 19.31  - hslua-core-2.2.1 (lib) (requires download & build)
+#12 19.31  - data-default-instances-old-locale-0.0.1.2 (lib) (requires download & build)
+#12 19.31  - hashable-1.4.4.0 (lib) (requires download & build)
+#12 19.31  - integer-conversion-0.1.0.1 (lib) (requires download & build)
+#12 19.31  - regex-tdfa-1.3.2.2 (lib) (requires download & build)
+#12 19.31  - doclayout-0.4.0.1 (lib) (requires download & build)
+#12 19.31  - random-1.2.1.3 (lib) (requires download & build)
+#12 19.31  - foldable1-classes-compat-0.1.1 (lib) (requires download & build)
+#12 19.31  - distributive-0.6.2.1 (lib) (requires download & build)
+#12 19.31  - boring-0.2.2 (lib) (requires download & build)
+#12 19.31  - th-lift-0.8.6 (lib) (requires download & build)
+#12 19.32  - network-uri-2.6.4.2 (lib) (requires download & build)
+#12 19.32  - unix-2.7.3 (lib:unix) (requires download & build)
+#12 19.32  - time-locale-compat-0.1.1.5 (lib) (requires download & build)
+#12 19.32  - cookie-0.5.0 (lib) (requires download & build)
+#12 19.32  - transformers-base-0.4.6 (lib) (requires download & build)
+#12 19.32  - mmorph-1.2.0 (lib) (requires download & build)
+#12 19.32  - unicode-transforms-0.4.0.1 (lib) (requires download & build)
+#12 19.32  - resourcet-1.3.0 (lib) (requires download & build)
+#12 19.32  - vector-0.13.2.0 (lib) (requires download & build)
+#12 19.32  - lrucache-1.2.0.1 (lib:lrucache) (requires download & build)
+#12 19.32  - pem-0.2.4 (lib) (requires download & build)
+#12 19.32  - cryptonite-0.30 (lib) (requires download & build)
+#12 19.32  - crypton-1.0.1 (lib) (requires download & build)
+#12 19.32  - asn1-types-0.3.4 (lib:asn1-types) (requires download & build)
+#12 19.32  - blaze-html-0.9.2.0 (lib) (requires download & build)
+#12 19.32  - ansi-terminal-1.0.2 (lib) (requires download & build)
+#12 19.32  - happy-lib-2.1.3 (lib:backend-lalr) (requires download & build)
+#12 19.32  - happy-lib-2.1.3 (lib:backend-glr) (requires download & build)
+#12 19.32  - hslua-marshalling-2.2.1 (lib) (requires download & build)
+#12 19.32  - data-default-0.7.1.3 (lib) (requires download & build)
+#12 19.32  - unordered-containers-0.2.20 (lib) (requires download & build)
+#12 19.32  - time-compat-1.9.8 (lib) (requires download & build)
+#12 19.32  - text-short-0.1.6 (lib) (requires download & build)
+#12 19.32  - scientific-0.3.7.0 (lib) (requires download & build)
+#12 19.32  - psqueues-0.2.8.0 (lib) (requires download & build)
+#12 19.32  - data-fix-0.3.4 (lib) (requires download & build)
+#12 19.32  - case-insensitive-1.2.1.0 (lib) (requires download & build)
+#12 19.32  - async-2.2.5 (lib) (requires download & build)
+#12 19.32  - gridtables-0.0.3.0 (lib) (requires download & build)
+#12 19.32  - uuid-types-1.0.6 (lib) (requires download & build)
+#12 19.32  - QuickCheck-2.14.3 (lib) (requires download & build)
+#12 19.32  - these-1.2.1 (lib) (requires download & build)
+#12 19.32  - indexed-traversable-0.1.4 (lib) (requires download & build)
+#12 19.32  - dec-0.0.6 (lib) (requires download & build)
+#12 19.32  - constraints-0.14.2 (lib) (requires download & build)
+#12 19.32  - unix-compat-0.7.3 (lib) (requires download & build)
+#12 19.32  - directory-1.3.7.1 (lib:directory) (requires download & build)
+#12 19.32  - base-compat-0.13.1 (lib) (requires download & build)
+#12 19.32  - monad-control-1.0.3.1 (lib) (requires download & build)
+#12 19.32  - commonmark-0.2.6.1 (lib) (requires download & build)
+#12 19.32  - th-lift-instances-0.1.20 (lib) (requires download & build)
+#12 19.32  - bitvec-1.1.5.0 (lib) (requires download & build)
+#12 19.32  - JuicyPixels-3.3.9 (lib) (requires download & build)
+#12 19.32  - asn1-encoding-0.9.6 (lib) (requires download & build)
+#12 19.32  - ansi-wl-pprint-0.6.9 (lib) (requires download & build)
+#12 19.32  - happy-lib-2.1.3 (lib) (requires download & build)
+#12 19.32  - hslua-objectorientation-2.2.1 (lib) (requires download & build)
+#12 19.32  - hslua-classes-2.2.0 (lib) (requires download & build)
+#12 19.32  - vault-0.3.1.5 (lib) (requires download & build)
+#12 19.32  - uniplate-1.6.13 (lib) (requires download & build)
+#12 19.32  - text-iso8601-0.1.1 (lib) (requires download & build)
+#12 19.32  - base64-0.4.2.4 (lib) (requires download & build)
+#12 19.32  - attoparsec-0.14.4 (lib) (requires download & build)
+#12 19.32  - http-types-0.12.4 (lib) (requires download & build)
+#12 19.32  - http-media-0.8.1.1 (lib) (requires download & build)
+#12 19.32  - hinotify-0.4.1 (lib) (requires download & build)
+#12 19.32  - strict-0.5 (lib) (requires download & build)
+#12 19.32  - indexed-traversable-instances-0.1.2 (lib) (requires download & build)
+#12 19.32  - comonad-5.0.9 (lib) (requires download & build)
+#12 19.32  - singleton-bool-0.1.8 (lib) (requires download & build)
+#12 19.32  - zip-archive-0.4.3.2 (lib) (requires download & build)
+#12 19.32  - temporary-1.3 (lib) (requires download & build)
+#12 19.32  - process-1.6.25.0 (lib:process) (requires download & build)
+#12 19.32  - file-embed-0.0.15.0 (lib) (requires download & build)
+#12 19.32  - easy-file-0.2.5 (lib) (requires download & build)
+#12 19.32  - Glob-0.10.2 (lib) (requires download & build)
+#12 19.32  - Cabal-syntax-3.10.3.0 (lib) (requires download & build)
+#12 19.32  - base-compat-batteries-0.13.1 (lib) (requires download & build)
+#12 19.32  - lifted-base-0.2.3.12 (lib) (requires download & build)
+#12 19.32  - commonmark-extensions-0.2.5.6 (lib) (requires download & build)
+#12 19.32  - unicode-collation-0.1.3.6 (lib) (requires download & build)
+#12 19.32  - vector-algorithms-0.9.0.3 (lib) (requires download & build)
+#12 19.32  - asn1-parse-0.9.5 (lib:asn1-parse) (requires download & build)
+#12 19.32  - happy-2.1.3 (exe:happy) (requires download & build)
+#12 19.32  - hslua-packaging-2.2.1 (lib) (requires download & build)
+#12 19.32  - http-date-0.0.11 (lib) (requires download & build)
+#12 19.32  - http-api-data-0.6.1 (lib) (requires download & build)
+#12 19.32  - fsnotify-0.4.1.0 (lib) (requires download & build)
+#12 19.32  - witherable-0.4.2 (lib) (requires download & build)
+#12 19.32  - bifunctors-5.6.2 (lib) (requires download & build)
+#12 19.32  - typed-process-0.2.12.0 (lib) (requires download & build)
+#12 19.32  - optparse-applicative-0.17.1.0 (lib) (requires download & build)
+#12 19.32  - hsc2hs-0.68.10 (exe:hsc2hs) (requires download & build)
+#12 19.32  - Cabal-3.10.3.0 (lib) (requires download & build)
+#12 19.32  - lifted-async-0.10.2.7 (lib) (requires download & build)
+#12 19.32  - mono-traversable-1.0.21.0 (lib) (requires download & build)
+#12 19.32  - x509-1.7.7 (lib) (requires download & build)
+#12 19.32  - crypton-x509-1.7.7 (lib) (requires download & build)
+#12 19.32  - pretty-show-1.10 (lib) (requires download & build)
+#12 19.32  - hslua-module-version-1.0.3 (lib) (requires download & build)
+#12 19.32  - hslua-module-text-1.0.3.1 (lib) (requires download & build)
+#12 19.32  - hslua-module-system-1.0.3 (lib) (requires download & build)
+#12 19.32  - hslua-module-path-1.0.3 (lib) (requires download & build)
+#12 19.32  - semigroupoids-6.0.1 (lib) (requires download & build)
+#12 19.32  - old-time-1.1.0.4 (lib:old-time) (requires download & build)
+#12 19.32  - network-3.2.7.0 (lib:network) (requires download & build)
+#12 19.32  - cabal-doctest-1.0.11 (lib) (requires download & build)
+#12 19.32  - conduit-1.3.6 (lib) (requires download & build)
+#12 19.32  - x509-store-1.6.9 (lib) (requires download & build)
+#12 19.32  - semialign-1.3.1 (lib) (requires download & build)
+#12 19.32  - unix-time-0.4.16 (lib:unix-time) (requires download & build)
+#12 19.32  - wai-3.2.4 (lib) (requires download & build)
+#12 19.32  - streaming-commons-0.2.2.6 (lib) (requires download & build)
+#12 19.32  - socks-0.6.1 (lib) (requires download & build)
+#12 19.32  - simple-sendfile-0.2.32 (lib) (requires download & build)
+#12 19.32  - recv-0.1.0 (lib) (requires download & build)
+#12 19.32  - iproute-1.7.15 (lib) (requires download & build)
+#12 19.32  - http-semantics-0.3.0 (lib) (requires download & build)
+#12 19.32  - libyaml-0.1.4 (lib) (requires download & build)
+#12 19.32  - x509-validation-1.6.12 (lib) (requires download & build)
+#12 19.32  - x509-system-1.6.7 (lib) (requires download & build)
+#12 19.32  - aeson-2.1.2.1 (lib) (requires download & build)
+#12 19.32  - network-control-0.1.3 (lib) (requires download & build)
+#12 19.32  - fast-logger-3.2.5 (lib) (requires download & build)
+#12 19.32  - conduit-extra-1.3.6 (lib) (requires download & build)
+#12 19.32  - http-client-0.7.18 (lib) (requires download & build)
+#12 19.32  - tls-1.6.0 (lib) (requires download & build)
+#12 19.32  - yaml-0.11.11.2 (lib) (requires download & build)
+#12 19.32  - servant-0.20.2 (lib) (requires download & build)
+#12 19.32  - pandoc-types-1.22.2.1 (lib) (requires download & build)
+#12 19.32  - ipynb-0.2 (lib) (requires download & build)
+#12 19.32  - hslua-aeson-2.2.1 (lib) (requires download & build)
+#12 19.32  - doctemplates-0.10.0.2 (lib) (requires download & build)
+#12 19.32  - attoparsec-aeson-2.1.0.0 (lib) (requires download & build)
+#12 19.32  - aeson-pretty-0.8.10 (lib) (requires download & build)
+#12 19.32  - http2-5.3.9 (lib) (requires download & build)
+#12 19.32  - wai-logger-2.5.0 (lib) (requires download & build)
+#12 19.32  - xml-conduit-1.9.1.4 (lib:xml-conduit) (requires download & build)
+#12 19.32  - connection-0.3.1 (lib) (requires download & build)
+#12 19.32  - texmath-0.12.5.5 (lib) (requires download & build)
+#12 19.32  - commonmark-pandoc-0.2.2.3 (lib) (requires download & build)
+#12 19.32  - hslua-2.2.1 (lib) (requires download & build)
+#12 19.32  - warp-3.4.7 (lib) (requires download & build)
+#12 19.32  - skylighting-core-0.13.4.1 (lib) (requires download & build)
+#12 19.32  - citeproc-0.8.1.2 (lib) (requires download & build)
+#12 19.32  - http-client-tls-0.3.6.1 (lib) (requires download & build)
+#12 19.32  - pandoc-lua-marshal-0.1.7 (lib) (requires download & build)
+#12 19.32  - hslua-module-doclayout-1.0.4 (lib) (requires download & build)
+#12 19.32  - wai-extra-3.1.17 (lib) (requires download & build)
+#12 19.32  - skylighting-format-latex-0.1 (lib) (requires download & build)
+#12 19.32  - skylighting-format-context-0.1.0.2 (lib) (requires download & build)
+#12 19.32  - skylighting-format-blaze-html-0.1.1.3 (lib) (requires download & build)
+#12 19.32  - skylighting-format-ansi-0.1 (lib) (requires download & build)
+#12 19.32  - http-conduit-2.3.9.1 (lib) (requires download & build)
+#12 19.32  - wai-app-static-3.1.9 (lib) (requires download & build)
+#12 19.32  - skylighting-0.13.4.1 (lib) (requires download & build)
+#12 19.32  - servant-server-0.20.2 (lib) (requires download & build)
+#12 19.32  - pandoc-2.19.2 (lib) (requires download & build)
+#12 19.32  - hakyll-4.15.1.1 (lib) (requires download & build)
+#12 19.37 Downloading  libyaml-clib-0.2.5
+#12 19.55 Downloaded   libyaml-clib-0.2.5
+#12 19.55 Downloading  base-orphans-0.9.3
+#12 24.90 Downloaded   base-orphans-0.9.3
+#12 24.90 Downloading  basement-0.0.16
+#12 25.10 Downloaded   basement-0.0.16
+#12 25.10 Downloading  byteorder-1.0.4
+#12 25.25 Downloaded   byteorder-1.0.4
+#12 25.25 Downloading  call-stack-0.4.0
+#12 25.36 Downloaded   call-stack-0.4.0
+#12 25.36 Downloading  colour-2.3.6
+#12 25.49 Downloaded   colour-2.3.6
+#12 25.49 Downloading  data-default-class-0.1.2.2
+#12 25.67 Downloaded   data-default-class-0.1.2.2
+#12 25.67 Downloading  generically-0.1.1
+#12 25.83 Downloaded   generically-0.1.1
+#12 25.83 Downloading  haskell-lexer-1.1.2
+#12 25.95 Downloaded   haskell-lexer-1.1.2
+#12 25.95 Downloading  lua-2.2.1
+#12 26.22 Downloaded   lua-2.2.1
+#12 26.22 Downloading  lpeg-1.0.4
+#12 26.35 Downloaded   lpeg-1.0.4
+#12 26.35 Downloading  old-locale-1.0.0.7
+#12 31.62 Downloaded   old-locale-1.0.0.7
+#12 31.62 Downloading  data-default-instances-old-locale-0.0.1.2
+#12 32.02 Downloaded   data-default-instances-old-locale-0.0.1.2
+#12 32.02 Downloading  safe-0.3.21
+#12 32.14 Downloaded   safe-0.3.21
+#12 32.14 Downloading  split-0.2.5
+#12 37.39 Downloaded   split-0.2.5
+#12 37.39 Downloading  syb-0.7.2.4
+#12 37.54 Downloaded   syb-0.7.2.4
+#12 37.54 Downloading  transformers-compat-0.7.2
+#12 38.02 Downloaded   transformers-compat-0.7.2
+#12 38.02 Downloading  mmorph-1.2.0
+#12 38.14 Downloaded   mmorph-1.2.0
+#12 38.14 Downloading  unicode-data-0.6.0
+#12 38.32 Downloaded   unicode-data-0.6.0
+#12 38.32 Downloading  unliftio-core-0.2.1.0
+#12 38.44 Downloaded   unliftio-core-0.2.1.0
+#12 38.44 Downloading  vector-stream-0.1.0.1
+#12 38.55 Downloaded   vector-stream-0.1.0.1
+#12 38.55 Downloading  word8-0.1.3
+#12 38.68 Downloaded   word8-0.1.3
+#12 38.68 Downloading  assoc-1.1.1
+#12 38.82 Downloaded   assoc-1.1.1
+#12 38.82 Downloading  dlist-1.0
+#12 38.84 Starting     assoc-1.1.1 (lib)
+#12 38.98 Downloaded   dlist-1.0
+#12 38.98 Downloading  data-default-instances-dlist-0.0.1.2
+#12 39.15 Downloaded   data-default-instances-dlist-0.0.1.2
+#12 39.15 Downloading  hourglass-0.2.12
+#12 39.26 Downloaded   hourglass-0.2.12
+#12 39.26 Downloading  base16-bytestring-1.0.2.0
+#12 39.36 Building     assoc-1.1.1 (lib)
+#12 39.40 Downloaded   base16-bytestring-1.0.2.0
+#12 39.40 Downloading  base64-bytestring-1.2.1.0
+#12 39.52 Downloaded   base64-bytestring-1.2.1.0
+#12 39.52 Downloading  bsb-http-chunked-0.0.0.4
+#12 39.63 Installing   assoc-1.1.1 (lib)
+#12 39.64 Downloaded   bsb-http-chunked-0.0.0.4
+#12 39.64 Downloading  digest-0.0.2.1
+#12 39.75 Completed    assoc-1.1.1 (lib)
+#12 39.75 Starting     base-orphans-0.9.3 (lib)
+#12 39.76 Downloaded   digest-0.0.2.1
+#12 39.76 Downloading  memory-0.18.0
+#12 39.91 Downloaded   memory-0.18.0
+#12 39.91 Downloading  asn1-types-0.3.4
+#12 40.03 Downloaded   asn1-types-0.3.4
+#12 40.03 Downloading  asn1-encoding-0.9.6
+#12 40.07 Building     base-orphans-0.9.3 (lib)
+#12 40.15 Downloaded   asn1-encoding-0.9.6
+#12 40.15 Downloading  asn1-parse-0.9.5
+#12 40.29 Downloaded   asn1-parse-0.9.5
+#12 40.29 Downloading  crypton-1.0.1
+#12 40.54 Downloaded   crypton-1.0.1
+#12 40.54 Downloading  cryptonite-0.30
+#12 40.76 Downloaded   cryptonite-0.30
+#12 40.76 Downloading  network-byte-order-0.1.7
+#12 40.89 Downloaded   network-byte-order-0.1.7
+#12 40.89 Downloading  pem-0.2.4
+#12 41.00 Installing   base-orphans-0.9.3 (lib)
+#12 41.00 Downloaded   pem-0.2.4
+#12 41.00 Downloading  utf8-string-1.0.2
+#12 41.11 Completed    base-orphans-0.9.3 (lib)
+#12 41.11 Starting     base16-bytestring-1.0.2.0 (lib)
+#12 41.13 Downloaded   utf8-string-1.0.2
+#12 41.13 Downloading  zlib-0.6.3.0
+#12 41.31 Downloaded   zlib-0.6.3.0
+#12 41.31 Downloading  cereal-0.5.8.3
+#12 41.44 Building     base16-bytestring-1.0.2.0 (lib)
+#12 41.70 Downloaded   cereal-0.5.8.3
+#12 41.70 Downloading  crypton-x509-1.7.7
+#12 41.80 Downloaded   crypton-x509-1.7.7
+#12 41.80 Downloading  data-default-instances-containers-0.1.0.3
+#12 41.88 Installing   base16-bytestring-1.0.2.0 (lib)
+#12 41.93 Downloaded   data-default-instances-containers-0.1.0.3
+#12 41.93 Downloading  data-default-0.7.1.3
+#12 42.00 Completed    base16-bytestring-1.0.2.0 (lib)
+#12 42.01 Starting     base64-bytestring-1.2.1.0 (lib)
+#12 42.03 Downloaded   data-default-0.7.1.3
+#12 42.03 Downloading  x509-1.7.7
+#12 42.16 Downloaded   x509-1.7.7
+#12 42.16 Downloading  th-abstraction-0.5.0.0
+#12 42.27 Downloaded   th-abstraction-0.5.0.0
+#12 42.27 Downloading  th-compat-0.1.6
+#12 42.32 Building     base64-bytestring-1.2.1.0 (lib)
+#12 42.39 Downloaded   th-compat-0.1.6
+#12 42.39 Downloading  th-lift-0.8.6
+#12 42.50 Downloaded   th-lift-0.8.6
+#12 42.50 Downloading  primitive-0.8.0.0
+#12 42.64 Downloaded   primitive-0.8.0.0
+#12 42.64 Downloading  some-1.0.6
+#12 42.76 Downloaded   some-1.0.6
+#12 42.76 Downloading  sop-core-0.5.0.2
+#12 42.88 Downloaded   sop-core-0.5.0.2
+#12 42.88 Downloading  splitmix-0.1.1
+#12 42.98 Downloaded   splitmix-0.1.1
+#12 42.98 Downloading  random-1.2.1.3
+#12 43.04 Installing   base64-bytestring-1.2.1.0 (lib)
+#12 43.13 Downloaded   random-1.2.1.3
+#12 43.13 Downloading  tagged-0.8.9
+#12 43.17 Completed    base64-bytestring-1.2.1.0 (lib)
+#12 43.18 Starting     basement-0.0.16 (lib)
+#12 43.24 Downloaded   tagged-0.8.9
+#12 43.24 Downloading  boring-0.2.2
+#12 43.36 Downloaded   boring-0.2.2
+#12 43.36 Downloading  dec-0.0.6
+#12 43.49 Building     basement-0.0.16 (lib)
+#12 48.59 Downloaded   dec-0.0.6
+#12 48.59 Downloading  singleton-bool-0.1.8
+#12 48.71 Downloaded   singleton-bool-0.1.8
+#12 48.71 Downloading  distributive-0.6.2.1
+#12 48.83 Downloaded   distributive-0.6.2.1
+#12 48.83 Downloading  foldable1-classes-compat-0.1.1
+#12 49.03 Downloaded   foldable1-classes-compat-0.1.1
+#12 49.03 Downloading  time-1.11.1.2
+#12 49.25 Downloaded   time-1.11.1.2
+#12 49.25 Downloading  time-locale-compat-0.1.1.5
+#12 49.36 Downloaded   time-locale-compat-0.1.1.5
+#12 49.36 Downloading  unix-2.7.3
+#12 49.52 Downloaded   unix-2.7.3
+#12 49.52 Downloading  base-compat-0.13.1
+#12 49.63 Downloaded   base-compat-0.13.1
+#12 49.63 Downloading  directory-1.3.7.1
+#12 49.77 Downloaded   directory-1.3.7.1
+#12 49.77 Downloading  file-embed-0.0.15.0
+#12 49.88 Downloaded   file-embed-0.0.15.0
+#12 49.88 Downloading  x509-store-1.6.9
+#12 50.02 Downloaded   x509-store-1.6.9
+#12 50.02 Downloading  x509-validation-1.6.12
+#12 50.13 Downloaded   x509-validation-1.6.12
+#12 50.13 Downloading  easy-file-0.2.5
+#12 50.25 Downloaded   easy-file-0.2.5
+#12 50.25 Downloading  process-1.6.25.0
+#12 50.40 Downloaded   process-1.6.25.0
+#12 50.40 Downloading  hsc2hs-0.68.10
+#12 50.52 Downloaded   hsc2hs-0.68.10
+#12 50.52 Downloading  old-time-1.1.0.4
+#12 50.68 Downloaded   old-time-1.1.0.4
+#12 50.68 Downloading  unix-time-0.4.16
+#12 50.83 Downloaded   unix-time-0.4.16
+#12 50.83 Downloading  x509-system-1.6.7
+#12 50.94 Downloaded   x509-system-1.6.7
+#12 50.94 Downloading  unix-compat-0.7.3
+#12 51.06 Downloaded   unix-compat-0.7.3
+#12 51.06 Downloading  vector-0.13.2.0
+#12 51.37 Downloaded   vector-0.13.2.0
+#12 51.37 Downloading  bitvec-1.1.5.0
+#12 51.60 Downloaded   bitvec-1.1.5.0
+#12 51.60 Downloading  vector-algorithms-0.9.0.3
+#12 51.71 Downloaded   vector-algorithms-0.9.0.3
+#12 51.71 Downloading  happy-lib-2.1.3
+#12 51.87 Downloaded   happy-lib-2.1.3
+#12 51.87 Downloading  happy-2.1.3
+#12 52.01 Downloaded   happy-2.1.3
+#12 52.01 Downloading  indexed-traversable-0.1.4
+#12 52.14 Downloaded   indexed-traversable-0.1.4
+#12 52.14 Downloading  comonad-5.0.9
+#12 52.25 Downloaded   comonad-5.0.9
+#12 52.25 Downloading  bifunctors-5.6.2
+#12 52.37 Downloaded   bifunctors-5.6.2
+#12 52.37 Downloading  integer-logarithms-1.0.4
+#12 52.49 Downloaded   integer-logarithms-1.0.4
+#12 52.49 Downloading  auto-update-0.2.6
+#12 52.62 Downloaded   auto-update-0.2.6
+#12 52.62 Downloading  os-string-2.0.7
+#12 52.64 Starting     auto-update-0.2.6 (lib)
+#12 52.75 Downloaded   os-string-2.0.7
+#12 52.75 Downloading  resourcet-1.3.0
+#12 52.88 Downloaded   resourcet-1.3.0
+#12 52.88 Downloading  safe-exceptions-0.1.7.4
+#12 53.00 Building     auto-update-0.2.6 (lib)
+#12 53.00 Downloaded   safe-exceptions-0.1.7.4
+#12 53.00 Downloading  temporary-1.3
+#12 53.71 Installing   auto-update-0.2.6 (lib)
+#12 53.83 Completed    auto-update-0.2.6 (lib)
+#12 57.48 Installing   basement-0.0.16 (lib)
+#12 57.64 Completed    basement-0.0.16 (lib)
+#12 57.66 Starting     bsb-http-chunked-0.0.0.4 (lib)
+#12 57.99 Building     bsb-http-chunked-0.0.0.4 (lib)
+#12 58.24 Downloaded   temporary-1.3
+#12 58.24 Downloading  network-3.2.7.0
+#12 58.30 Installing   bsb-http-chunked-0.0.0.4 (lib)
+#12 58.39 Downloaded   network-3.2.7.0
+#12 58.39 Downloading  recv-0.1.0
+#12 58.41 Completed    bsb-http-chunked-0.0.0.4 (lib)
+#12 58.42 Starting     byteorder-1.0.4 (all, legacy fallback)
+#12 58.53 Downloaded   recv-0.1.0
+#12 58.53 Downloading  simple-sendfile-0.2.32
+#12 58.71 Downloaded   simple-sendfile-0.2.32
+#12 58.71 Downloading  socks-0.6.1
+#12 58.73 Building     byteorder-1.0.4 (all, legacy fallback)
+#12 58.83 Downloaded   socks-0.6.1
+#12 58.83 Downloading  time-manager-0.2.2
+#12 58.95 Downloaded   time-manager-0.2.2
+#12 58.95 Downloading  transformers-base-0.4.6
+#12 59.05 Installing   byteorder-1.0.4 (all, legacy fallback)
+#12 59.08 Downloaded   transformers-base-0.4.6
+#12 59.08 Downloading  monad-control-1.0.3.1
+#12 59.15 Completed    byteorder-1.0.4 (all, legacy fallback)
+#12 59.15 Starting     call-stack-0.4.0 (lib)
+#12 59.18 Downloaded   monad-control-1.0.3.1
+#12 59.18 Downloading  lifted-base-0.2.3.12
+#12 59.30 Downloaded   lifted-base-0.2.3.12
+#12 59.30 Downloading  attoparsec-0.14.4
+#12 59.47 Building     call-stack-0.4.0 (lib)
+#12 59.48 Downloaded   attoparsec-0.14.4
+#12 59.48 Downloading  blaze-builder-0.4.2.3
+#12 59.52 Starting     attoparsec-0.14.4 (lib:attoparsec-internal)
+#12 59.64 Downloaded   blaze-builder-0.4.2.3
+#12 59.64 Downloading  blaze-markup-0.8.3.0
+#12 59.67 Starting     blaze-builder-0.4.2.3 (lib)
+#12 59.76 Downloaded   blaze-markup-0.8.3.0
+#12 59.76 Downloading  blaze-html-0.9.2.0
+#12 59.78 Installing   call-stack-0.4.0 (lib)
+#12 59.85 Building     attoparsec-0.14.4 (lib:attoparsec-internal)
+#12 59.89 Completed    call-stack-0.4.0 (lib)
+#12 59.90 Starting     cereal-0.5.8.3 (lib)
+#12 59.94 Downloaded   blaze-html-0.9.2.0
+#12 59.94 Downloading  cookie-0.5.0
+#12 60.00 Building     blaze-builder-0.4.2.3 (lib)
+#12 60.08 Downloaded   cookie-0.5.0
+#12 60.08 Downloading  emojis-0.1.4.1
+#12 60.21 Building     cereal-0.5.8.3 (lib)
+#12 60.25 Downloaded   emojis-0.1.4.1
+#12 60.25 Downloading  doclayout-0.4.0.1
+#12 60.37 Downloaded   doclayout-0.4.0.1
+#12 60.37 Downloading  fast-logger-3.2.5
+#12 60.51 Downloaded   fast-logger-3.2.5
+#12 60.51 Downloading  hashable-1.4.4.0
+#12 60.63 Downloaded   hashable-1.4.4.0
+#12 60.63 Downloading  async-2.2.5
+#12 60.72 Installing   attoparsec-0.14.4 (lib:attoparsec-internal)
+#12 60.75 Downloaded   async-2.2.5
+#12 60.75 Downloading  hinotify-0.4.1
+#12 60.85 Completed    attoparsec-0.14.4 (lib:attoparsec-internal)
+#12 60.86 Starting     colour-2.3.6 (lib)
+#12 60.88 Downloaded   hinotify-0.4.1
+#12 60.88 Downloading  fsnotify-0.4.1.0
+#12 61.01 Downloaded   fsnotify-0.4.1.0
+#12 61.01 Downloading  tls-1.6.0
+#12 61.17 Downloaded   tls-1.6.0
+#12 61.17 Downloading  connection-0.3.1
+#12 61.20 Building     colour-2.3.6 (lib)
+#12 61.30 Downloaded   connection-0.3.1
+#12 61.30 Downloading  typed-process-0.2.12.0
+#12 61.42 Downloaded   typed-process-0.2.12.0
+#12 61.42 Downloading  case-insensitive-1.2.1.0
+#12 61.56 Downloaded   case-insensitive-1.2.1.0
+#12 61.56 Downloading  http-media-0.8.1.1
+#12 61.69 Downloaded   http-media-0.8.1.1
+#12 61.69 Downloading  constraints-0.14.2
+#12 61.82 Downloaded   constraints-0.14.2
+#12 61.82 Downloading  lifted-async-0.10.2.7
+#12 61.94 Downloaded   lifted-async-0.10.2.7
+#12 61.94 Downloading  data-fix-0.3.4
+#12 62.06 Downloaded   data-fix-0.3.4
+#12 62.06 Downloading  psqueues-0.2.8.0
+#12 62.18 Downloaded   psqueues-0.2.8.0
+#12 62.18 Downloading  network-control-0.1.3
+#12 62.32 Downloaded   network-control-0.1.3
+#12 62.32 Downloading  these-1.2.1
+#12 62.44 Downloaded   these-1.2.1
+#12 62.44 Downloading  time-compat-1.9.8
+#12 62.58 Downloaded   time-compat-1.9.8
+#12 62.58 Downloading  unordered-containers-0.2.20
+#12 62.71 Downloaded   unordered-containers-0.2.20
+#12 62.71 Downloading  uniplate-1.6.13
+#12 62.84 Downloaded   uniplate-1.6.13
+#12 62.84 Downloading  vault-0.3.1.5
+#12 62.96 Downloaded   vault-0.3.1.5
+#12 62.96 Downloading  hslua-core-2.2.1
+#12 63.06 Installing   blaze-builder-0.4.2.3 (lib)
+#12 63.10 Downloaded   hslua-core-2.2.1
+#12 63.10 Downloading  hslua-marshalling-2.2.1
+#12 63.20 Completed    blaze-builder-0.4.2.3 (lib)
+#12 63.21 Starting     data-default-class-0.1.2.2 (lib)
+#12 63.24 Downloaded   hslua-marshalling-2.2.1
+#12 63.24 Downloading  hslua-classes-2.2.0
+#12 63.38 Downloaded   hslua-classes-2.2.0
+#12 63.38 Downloading  hslua-objectorientation-2.2.1
+#12 63.52 Downloaded   hslua-objectorientation-2.2.1
+#12 63.52 Downloading  hslua-packaging-2.2.1
+#12 63.58 Building     data-default-class-0.1.2.2 (lib)
+#12 63.64 Downloaded   hslua-packaging-2.2.1
+#12 63.64 Downloading  hslua-module-path-1.0.3
+#12 63.74 Downloaded   hslua-module-path-1.0.3
+#12 63.74 Downloading  hslua-module-system-1.0.3
+#12 63.84 Installing   colour-2.3.6 (lib)
+#12 63.86 Downloaded   hslua-module-system-1.0.3
+#12 63.86 Downloading  hslua-module-text-1.0.3.1
+#12 63.92 Installing   data-default-class-0.1.2.2 (lib)
+#12 63.98 Completed    colour-2.3.6 (lib)
+#12 63.98 Starting     digest-0.0.2.1 (lib)
+#12 63.99 Downloaded   hslua-module-text-1.0.3.1
+#12 63.99 Downloading  hslua-module-version-1.0.3
+#12 64.06 Completed    data-default-class-0.1.2.2 (lib)
+#12 64.07 Starting     dlist-1.0 (lib)
+#12 64.12 Downloaded   hslua-module-version-1.0.3
+#12 64.12 Downloading  http-types-0.12.4
+#12 64.25 Downloaded   http-types-0.12.4
+#12 64.25 Downloading  http-semantics-0.3.0
+#12 64.35 Building     digest-0.0.2.1 (lib)
+#12 64.38 Building     dlist-1.0 (lib)
+#12 64.39 Downloaded   http-semantics-0.3.0
+#12 64.39 Downloading  integer-conversion-0.1.0.1
+#12 64.51 Downloaded   integer-conversion-0.1.0.1
+#12 64.51 Downloading  mime-types-0.1.2.0
+#12 64.64 Downloaded   mime-types-0.1.2.0
+#12 64.64 Downloading  mono-traversable-1.0.21.0
+#12 64.77 Downloaded   mono-traversable-1.0.21.0
+#12 64.77 Downloading  conduit-1.3.6
+#12 64.94 Downloaded   conduit-1.3.6
+#12 64.94 Downloading  libyaml-0.1.4
+#12 65.05 Downloaded   libyaml-0.1.4
+#12 65.05 Downloading  gridtables-0.0.3.0
+#12 65.18 Downloaded   gridtables-0.0.3.0
+#12 65.18 Downloading  haddock-library-1.11.0
+#12 65.23 Installing   digest-0.0.2.1 (lib)
+#12 65.30 Downloaded   haddock-library-1.11.0
+#12 65.30 Downloading  jira-wiki-markup-1.4.0
+#12 65.35 Installing   dlist-1.0 (lib)
+#12 65.37 Completed    digest-0.0.2.1 (lib)
+#12 65.38 Starting     emojis-0.1.4.1 (lib)
+#12 65.44 Downloaded   jira-wiki-markup-1.4.0
+#12 65.44 Downloading  network-uri-2.6.4.2
+#12 65.48 Completed    dlist-1.0 (lib)
+#12 65.49 Starting     haddock-library-1.11.0 (lib)
+#12 65.62 Downloaded   network-uri-2.6.4.2
+#12 65.62 Downloading  pretty-show-1.10
+#12 65.72 Building     emojis-0.1.4.1 (lib)
+#12 65.82 Building     haddock-library-1.11.0 (lib)
+#12 67.68 Installing   cereal-0.5.8.3 (lib)
+#12 67.82 Completed    cereal-0.5.8.3 (lib)
+#12 67.83 Starting     happy-lib-2.1.3 (lib:grammar)
+#12 68.21 Building     happy-lib-2.1.3 (lib:grammar)
+#12 68.75 Installing   happy-lib-2.1.3 (lib:grammar)
+#12 68.89 Completed    happy-lib-2.1.3 (lib:grammar)
+#12 68.89 Starting     haskell-lexer-1.1.2 (lib)
+#12 69.25 Building     haskell-lexer-1.1.2 (lib)
+#12 70.86 Downloaded   pretty-show-1.10
+#12 70.86 Downloading  regex-base-0.94.0.2
+#12 70.98 Downloaded   regex-base-0.94.0.2
+#12 70.98 Downloading  regex-tdfa-1.3.2.2
+#12 71.13 Downloaded   regex-tdfa-1.3.2.2
+#12 71.13 Downloading  scientific-0.3.7.0
+#12 71.27 Downloaded   scientific-0.3.7.0
+#12 71.27 Downloading  http-date-0.0.11
+#12 71.42 Downloaded   http-date-0.0.11
+#12 71.42 Downloading  streaming-commons-0.2.2.6
+#12 71.56 Downloaded   streaming-commons-0.2.2.6
+#12 71.56 Downloading  conduit-extra-1.3.6
+#12 71.69 Downloaded   conduit-extra-1.3.6
+#12 71.69 Downloading  strict-0.5
+#12 71.82 Downloaded   strict-0.5
+#12 71.82 Downloading  tagsoup-0.14.8
+#12 71.97 Downloaded   tagsoup-0.14.8
+#12 71.97 Downloading  text-conversions-0.3.1.1
+#12 72.11 Downloaded   text-conversions-0.3.1.1
+#12 72.11 Downloading  text-iso8601-0.1.1
+#12 72.24 Downloaded   text-iso8601-0.1.1
+#12 72.24 Downloading  text-short-0.1.6
+#12 72.36 Downloaded   text-short-0.1.6
+#12 72.36 Downloading  base64-0.4.2.4
+#12 72.49 Downloaded   base64-0.4.2.4
+#12 72.49 Downloading  th-lift-instances-0.1.20
+#12 72.61 Downloaded   th-lift-instances-0.1.20
+#12 72.61 Downloading  unicode-collation-0.1.3.6
+#12 72.98 Downloaded   unicode-collation-0.1.3.6
+#12 72.98 Downloading  unicode-transforms-0.4.0.1
+#12 73.19 Downloaded   unicode-transforms-0.4.0.1
+#12 73.19 Downloading  commonmark-0.2.6.1
+#12 73.35 Downloaded   commonmark-0.2.6.1
+#12 73.35 Downloading  commonmark-extensions-0.2.5.6
+#12 73.50 Downloaded   commonmark-extensions-0.2.5.6
+#12 73.50 Downloading  uuid-types-1.0.6
+#12 73.63 Downloaded   uuid-types-1.0.6
+#12 73.63 Downloading  http-api-data-0.6.1
+#12 73.75 Downloaded   http-api-data-0.6.1
+#12 73.75 Downloading  wai-3.2.4
+#12 73.89 Downloaded   wai-3.2.4
+#12 73.89 Downloading  wai-logger-2.5.0
+#12 74.00 Downloaded   wai-logger-2.5.0
+#12 74.00 Downloading  xml-1.3.14
+#12 74.03 Installing   haddock-library-1.11.0 (lib)
+#12 74.15 Downloaded   xml-1.3.14
+#12 74.15 Downloading  xml-types-0.3.8
+#12 74.18 Completed    haddock-library-1.11.0 (lib)
+#12 74.19 Starting     hourglass-0.2.12 (lib)
+#12 74.27 Downloaded   xml-types-0.3.8
+#12 74.27 Downloading  zip-archive-0.4.3.2
+#12 74.40 Downloaded   zip-archive-0.4.3.2
+#12 74.40 Downloading  appar-0.1.8
+#12 74.51 Downloaded   appar-0.1.8
+#12 74.51 Downloading  iproute-1.7.15
+#12 74.53 Starting     appar-0.1.8 (all, legacy fallback)
+#12 74.54 Building     hourglass-0.2.12 (lib)
+#12 74.65 Downloaded   iproute-1.7.15
+#12 74.65 Downloading  http-client-0.7.18
+#12 74.81 Downloaded   http-client-0.7.18
+#12 74.81 Downloading  http-client-tls-0.3.6.1
+#12 74.92 Building     appar-0.1.8 (all, legacy fallback)
+#12 74.95 Downloaded   http-client-tls-0.3.6.1
+#12 74.95 Downloading  http2-5.3.9
+#12 75.47 Downloaded   http2-5.3.9
+#12 75.47 Downloading  warp-3.4.7
+#12 75.52 Installing   appar-0.1.8 (all, legacy fallback)
+#12 75.63 Downloaded   warp-3.4.7
+#12 75.63 Downloading  ansi-terminal-types-0.11.5
+#12 75.70 Completed    appar-0.1.8 (all, legacy fallback)
+#12 75.70 Starting     integer-logarithms-1.0.4 (lib)
+#12 75.78 Downloaded   ansi-terminal-types-0.11.5
+#12 75.78 Downloading  ansi-terminal-1.0.2
+#12 75.91 Downloaded   ansi-terminal-1.0.2
+#12 75.91 Downloading  ansi-wl-pprint-0.6.9
+#12 76.10 Downloaded   ansi-wl-pprint-0.6.9
+#12 76.10 Downloading  optparse-applicative-0.17.1.0
+#12 76.13 Building     integer-logarithms-1.0.4 (lib)
+#12 76.26 Downloaded   optparse-applicative-0.17.1.0
+#12 76.26 Downloading  StateVar-1.2.2
+#12 76.40 Downloaded   StateVar-1.2.2
+#12 76.40 Downloading  contravariant-1.5.5
+#12 76.41 Starting     StateVar-1.2.2 (lib)
+#12 76.54 Downloaded   contravariant-1.5.5
+#12 76.54 Downloading  lrucache-1.2.0.1
+#12 76.69 Downloaded   lrucache-1.2.0.1
+#12 76.69 Downloading  semigroupoids-6.0.1
+#12 76.83 Downloaded   semigroupoids-6.0.1
+#12 76.83 Downloading  SHA-1.6.4.4
+#12 76.90 Building     StateVar-1.2.2 (lib)
+#12 77.28 Downloaded   SHA-1.6.4.4
+#12 77.28 Downloading  QuickCheck-2.14.3
+#12 77.35 Starting     SHA-1.6.4.4 (lib)
+#12 77.36 Installing   integer-logarithms-1.0.4 (lib)
+#12 77.48 Downloaded   QuickCheck-2.14.3
+#12 77.48 Downloading  OneTuple-0.4.2
+#12 77.60 Installing   StateVar-1.2.2 (lib)
+#12 77.62 Completed    integer-logarithms-1.0.4 (lib)
+#12 77.62 Starting     jira-wiki-markup-1.4.0 (lib)
+#12 77.65 Downloaded   OneTuple-0.4.2
+#12 77.65 Downloading  base-compat-batteries-0.13.1
+#12 77.68 Starting     OneTuple-0.4.2 (lib)
+#12 77.85 Downloaded   base-compat-batteries-0.13.1
+#12 77.85 Downloading  indexed-traversable-instances-0.1.2
+#12 77.87 Completed    StateVar-1.2.2 (lib)
+#12 77.87 Starting     libyaml-clib-0.2.5 (lib)
+#12 77.90 Building     SHA-1.6.4.4 (lib)
+#12 78.06 Downloaded   indexed-traversable-instances-0.1.2
+#12 78.06 Downloading  semialign-1.3.1
+#12 78.16 Building     jira-wiki-markup-1.4.0 (lib)
+#12 78.25 Downloaded   semialign-1.3.1
+#12 78.26 Downloading  witherable-0.4.2
+#12 78.29 Building     OneTuple-0.4.2 (lib)
+#12 78.43 Downloaded   witherable-0.4.2
+#12 78.44 Downloading  aeson-2.1.2.1
+#12 78.55 Building     libyaml-clib-0.2.5 (lib)
+#12 78.76 Downloaded   aeson-2.1.2.1
+#12 78.76 Downloading  aeson-pretty-0.8.10
+#12 78.83 Installing   OneTuple-0.4.2 (lib)
+#12 78.92 Downloaded   aeson-pretty-0.8.10
+#12 78.92 Downloading  attoparsec-aeson-2.1.0.0
+#12 79.11 Downloaded   attoparsec-aeson-2.1.0.0
+#12 79.11 Downloading  hslua-aeson-2.2.1
+#12 79.15 Completed    OneTuple-0.4.2 (lib)
+#12 79.19 Starting     lua-2.2.1 (lib)
+#12 79.27 Downloaded   hslua-aeson-2.2.1
+#12 79.28 Downloading  hslua-2.2.1
+#12 79.45 Downloaded   hslua-2.2.1
+#12 79.45 Downloading  hslua-module-doclayout-1.0.4
+#12 79.58 Downloaded   hslua-module-doclayout-1.0.4
+#12 79.58 Downloading  http-conduit-2.3.9.1
+#12 79.77 Downloaded   http-conduit-2.3.9.1
+#12 79.77 Downloading  ipynb-0.2
+#12 79.84 Building     lua-2.2.1 (lib)
+#12 80.00 Installing   emojis-0.1.4.1 (lib)
+#12 80.03 Downloaded   ipynb-0.2
+#12 80.03 Downloading  pandoc-types-1.22.2.1
+#12 80.26 Downloaded   pandoc-types-1.22.2.1
+#12 80.26 Downloading  commonmark-pandoc-0.2.2.3
+#12 80.39 Completed    emojis-0.1.4.1 (lib)
+#12 80.40 Starting     mime-types-0.1.2.0 (lib)
+#12 80.44 Downloaded   commonmark-pandoc-0.2.2.3
+#12 80.45 Downloading  pandoc-lua-marshal-0.1.7
+#12 80.62 Downloaded   pandoc-lua-marshal-0.1.7
+#12 80.62 Downloading  texmath-0.12.5.5
+#12 80.88 Installing   haskell-lexer-1.1.2 (lib)
+#12 80.98 Downloaded   texmath-0.12.5.5
+#12 80.98 Downloading  servant-0.20.2
+#12 81.05 Building     mime-types-0.1.2.0 (lib)
+#12 81.10 Completed    haskell-lexer-1.1.2 (lib)
+#12 81.11 Starting     network-byte-order-0.1.7 (lib)
+#12 81.18 Downloaded   servant-0.20.2
+#12 81.18 Downloading  yaml-0.11.11.2
+#12 81.33 Downloaded   yaml-0.11.11.2
+#12 81.33 Downloading  JuicyPixels-3.3.9
+#12 81.54 Installing   hourglass-0.2.12 (lib)
+#12 81.56 Downloaded   JuicyPixels-3.3.9
+#12 81.56 Downloading  HsYAML-0.2.1.4
+#12 81.73 Building     network-byte-order-0.1.7 (lib)
+#12 81.79 Downloaded   HsYAML-0.2.1.4
+#12 81.79 Downloading  doctemplates-0.10.0.2
+#12 81.83 Starting     HsYAML-0.2.1.4 (lib)
+#12 81.89 Completed    hourglass-0.2.12 (lib)
+#12 81.90 Starting     old-locale-1.0.0.7 (lib)
+#12 82.08 Downloaded   doctemplates-0.10.0.2
+#12 82.08 Downloading  HUnit-1.6.2.0
+#12 82.27 Downloaded   HUnit-1.6.2.0
+#12 82.27 Downloading  wai-extra-3.1.17
+#12 82.49 Building     HsYAML-0.2.1.4 (lib)
+#12 82.60 Downloaded   wai-extra-3.1.17
+#12 82.60 Downloading  wai-app-static-3.1.9
+#12 82.63 Building     old-locale-1.0.0.7 (lib)
+#12 82.80 Downloaded   wai-app-static-3.1.9
+#12 82.80 Downloading  servant-server-0.20.2
+#12 82.99 Downloaded   servant-server-0.20.2
+#12 82.99 Downloading  Glob-0.10.2
+#12 83.14 Downloaded   Glob-0.10.2
+#12 83.14 Downloading  Cabal-syntax-3.10.3.0
+#12 83.26 Installing   old-locale-1.0.0.7 (lib)
+#12 83.33 Installing   network-byte-order-0.1.7 (lib)
+#12 83.37 Downloaded   Cabal-syntax-3.10.3.0
+#12 83.37 Downloading  Cabal-3.10.3.0
+#12 83.51 Completed    old-locale-1.0.0.7 (lib)
+#12 83.51 Starting     os-string-2.0.7 (lib)
+#12 83.63 Downloaded   Cabal-3.10.3.0
+#12 83.63 Downloading  cabal-doctest-1.0.11
+#12 83.66 Completed    network-byte-order-0.1.7 (lib)
+#12 83.70 Starting     primitive-0.8.0.0 (lib)
+#12 83.88 Downloaded   cabal-doctest-1.0.11
+#12 83.88 Downloading  xml-conduit-1.9.1.4
+#12 84.07 Downloaded   xml-conduit-1.9.1.4
+#12 84.07 Downloading  citeproc-0.8.1.2
+#12 84.12 Building     os-string-2.0.7 (lib)
+#12 84.29 Building     primitive-0.8.0.0 (lib)
+#12 84.45 Installing   libyaml-clib-0.2.5 (lib)
+#12 84.68 Completed    libyaml-clib-0.2.5 (lib)
+#12 84.70 Starting     regex-base-0.94.0.2 (lib)
+#12 85.28 Building     regex-base-0.94.0.2 (lib)
+#12 87.00 Installing   mime-types-0.1.2.0 (lib)
+#12 87.23 Installing   jira-wiki-markup-1.4.0 (lib)
+#12 87.25 Installing   regex-base-0.94.0.2 (lib)
+#12 87.28 Completed    mime-types-0.1.2.0 (lib)
+#12 87.28 Starting     safe-0.3.21 (lib)
+#12 87.51 Completed    jira-wiki-markup-1.4.0 (lib)
+#12 87.52 Starting     safe-exceptions-0.1.7.4 (lib)
+#12 87.60 Completed    regex-base-0.94.0.2 (lib)
+#12 87.62 Starting     sop-core-0.5.0.2 (lib)
+#12 87.86 Building     safe-0.3.21 (lib)
+#12 88.10 Building     safe-exceptions-0.1.7.4 (lib)
+#12 88.20 Building     sop-core-0.5.0.2 (lib)
+#12 89.14 Installing   safe-exceptions-0.1.7.4 (lib)
+#12 89.16 Installing   os-string-2.0.7 (lib)
+#12 89.44 Downloaded   citeproc-0.8.1.2
+#12 89.44 Downloading  skylighting-core-0.13.4.1
+#12 89.45 Completed    safe-exceptions-0.1.7.4 (lib)
+#12 89.49 Starting     split-0.2.5 (lib)
+#12 89.55 Completed    os-string-2.0.7 (lib)
+#12 89.57 Starting     splitmix-0.1.1 (lib)
+#12 89.86 Downloaded   skylighting-core-0.13.4.1
+#12 89.86 Downloading  skylighting-format-ansi-0.1
+#12 89.90 Installing   safe-0.3.21 (lib)
+#12 90.05 Downloaded   skylighting-format-ansi-0.1
+#12 90.06 Downloading  skylighting-format-blaze-html-0.1.1.3
+#12 90.10 Building     split-0.2.5 (lib)
+#12 90.15 Completed    safe-0.3.21 (lib)
+#12 90.16 Starting     syb-0.7.2.4 (lib)
+#12 90.20 Building     splitmix-0.1.1 (lib)
+#12 90.24 Downloaded   skylighting-format-blaze-html-0.1.1.3
+#12 90.24 Downloading  skylighting-format-context-0.1.0.2
+#12 90.41 Downloaded   skylighting-format-context-0.1.0.2
+#12 90.42 Downloading  skylighting-format-latex-0.1
+#12 90.61 Downloaded   skylighting-format-latex-0.1
+#12 90.61 Downloading  skylighting-0.13.4.1
+#12 90.81 Building     syb-0.7.2.4 (lib)
+#12 91.04 Downloaded   skylighting-0.13.4.1
+#12 91.04 Downloading  pandoc-2.19.2
+#12 91.17 Installing   split-0.2.5 (lib)
+#12 91.53 Completed    split-0.2.5 (lib)
+#12 91.54 Starting     tagged-0.8.9 (lib)
+#12 91.63 Downloaded   pandoc-2.19.2
+#12 91.63 Downloading  hakyll-4.15.1.1
+#12 91.74 Installing   splitmix-0.1.1 (lib)
+#12 91.91 Downloaded   hakyll-4.15.1.1
+#12 92.00 Completed    splitmix-0.1.1 (lib)
+#12 92.01 Starting     tagsoup-0.14.8 (lib)
+#12 92.15 Building     tagged-0.8.9 (lib)
+#12 92.65 Building     tagsoup-0.14.8 (lib)
+#12 93.17 Installing   sop-core-0.5.0.2 (lib)
+#12 93.41 Installing   syb-0.7.2.4 (lib)
+#12 93.43 Completed    sop-core-0.5.0.2 (lib)
+#12 93.45 Starting     th-abstraction-0.5.0.0 (lib)
+#12 93.66 Completed    syb-0.7.2.4 (lib)
+#12 93.69 Starting     th-compat-0.1.6 (lib)
+#12 94.09 Building     th-abstraction-0.5.0.0 (lib)
+#12 94.21 Installing   tagged-0.8.9 (lib)
+#12 94.28 Building     th-compat-0.1.6 (lib)
+#12 94.44 Completed    tagged-0.8.9 (lib)
+#12 94.46 Starting     time-1.11.1.2 (all, legacy fallback)
+#12 94.58 Installing   primitive-0.8.0.0 (lib)
+#12 94.83 Completed    primitive-0.8.0.0 (lib)
+#12 94.85 Starting     transformers-compat-0.7.2 (lib)
+#12 95.00 Installing   th-compat-0.1.6 (lib)
+#12 95.26 Completed    th-compat-0.1.6 (lib)
+#12 95.29 Starting     unicode-data-0.6.0 (lib)
+#12 95.45 Building     transformers-compat-0.7.2 (lib)
+#12 95.86 Building     unicode-data-0.6.0 (lib)
+#12 96.96 Building     time-1.11.1.2 (all, legacy fallback)
+#12 98.05 Installing   SHA-1.6.4.4 (lib)
+#12 98.31 Completed    SHA-1.6.4.4 (lib)
+#12 98.33 Starting     unliftio-core-0.2.1.0 (lib)
+#12 98.62 Installing   transformers-compat-0.7.2 (lib)
+#12 98.77 Installing   lua-2.2.1 (lib)
+#12 98.89 Completed    transformers-compat-0.7.2 (lib)
+#12 98.90 Starting     utf8-string-1.0.2 (lib)
+#12 98.92 Building     unliftio-core-0.2.1.0 (lib)
+#12 99.02 Completed    lua-2.2.1 (lib)
+#12 99.03 Starting     vector-stream-0.1.0.1 (lib)
+#12 99.54 Installing   unliftio-core-0.2.1.0 (lib)
+#12 99.57 Building     utf8-string-1.0.2 (lib)
+#12 99.70 Building     vector-stream-0.1.0.1 (lib)
+#12 99.83 Completed    unliftio-core-0.2.1.0 (lib)
+#12 99.83 Starting     word8-0.1.3 (lib)
+#12 100.1 Installing   th-abstraction-0.5.0.0 (lib)
+#12 100.4 Completed    th-abstraction-0.5.0.0 (lib)
+#12 100.4 Starting     xml-1.3.14 (all, legacy fallback)
+#12 100.4 Building     word8-0.1.3 (lib)
+#12 101.1 Building     xml-1.3.14 (all, legacy fallback)
+#12 101.3 Installing   word8-0.1.3 (lib)
+#12 101.5 Completed    word8-0.1.3 (lib)
+#12 101.5 Starting     xml-types-0.3.8 (lib)
+#12 102.2 Building     xml-types-0.3.8 (lib)
+#12 104.3 Installing   utf8-string-1.0.2 (lib)
+#12 104.3 Installing   vector-stream-0.1.0.1 (lib)
+#12 104.6 Completed    utf8-string-1.0.2 (lib)
+#12 104.6 Starting     zlib-0.6.3.0 (lib)
+#12 104.7 Completed    vector-stream-0.1.0.1 (lib)
+#12 104.7 Starting     some-1.0.6 (lib)
+#12 105.1 Installing   HsYAML-0.2.1.4 (lib)
+#12 105.4 Building     zlib-0.6.3.0 (lib)
+#12 105.4 Installing   tagsoup-0.14.8 (lib)
+#12 105.4 Building     some-1.0.6 (lib)
+#12 105.5 Completed    HsYAML-0.2.1.4 (lib)
+#12 105.5 Starting     generically-0.1.1 (lib)
+#12 105.8 Completed    tagsoup-0.14.8 (lib)
+#12 105.8 Starting     text-conversions-0.3.1.1 (lib)
+#12 105.8 Installing   xml-1.3.14 (all, legacy fallback)
+#12 106.1 Completed    xml-1.3.14 (all, legacy fallback)
+#12 106.1 Starting     time-manager-0.2.2 (lib)
+#12 106.2 Building     generically-0.1.1 (lib)
+#12 106.4 Building     text-conversions-0.3.1.1 (lib)
+#12 106.6 Installing   generically-0.1.1 (lib)
+#12 106.6 Building     time-manager-0.2.2 (lib)
+#12 106.8 Completed    generically-0.1.1 (lib)
+#12 106.8 Starting     memory-0.18.0 (lib)
+#12 107.2 Installing   xml-types-0.3.8 (lib)
+#12 107.3 Installing   text-conversions-0.3.1.1 (lib)
+#12 107.5 Building     memory-0.18.0 (lib)
+#12 107.5 Completed    xml-types-0.3.8 (lib)
+#12 107.6 Starting     HUnit-1.6.2.0 (lib)
+#12 107.6 Completed    text-conversions-0.3.1.1 (lib)
+#12 107.7 Starting     blaze-markup-0.8.3.0 (lib)
+#12 107.8 Installing   some-1.0.6 (lib)
+#12 107.9 Installing   time-manager-0.2.2 (lib)
+#12 108.2 Completed    some-1.0.6 (lib)
+#12 108.2 Starting     ansi-terminal-types-0.11.5 (lib)
+#12 108.3 Completed    time-manager-0.2.2 (lib)
+#12 108.3 Starting     data-default-instances-containers-0.1.0.3 (lib)
+#12 108.3 Building     HUnit-1.6.2.0 (lib)
+#12 108.3 Building     blaze-markup-0.8.3.0 (lib)
+#12 108.8 Building     ansi-terminal-types-0.11.5 (lib)
+#12 108.9 Building     data-default-instances-containers-0.1.0.3 (lib)
+#12 109.4 Installing   data-default-instances-containers-0.1.0.3 (lib)
+#12 109.6 Completed    data-default-instances-containers-0.1.0.3 (lib)
+#12 109.7 Starting     data-default-instances-dlist-0.0.1.2 (lib)
+#12 109.7 Installing   time-1.11.1.2 (all, legacy fallback)
+#12 110.0 Completed    time-1.11.1.2 (all, legacy fallback)
+#12 110.0 Starting     happy-lib-2.1.3 (lib:tabular)
+#12 110.3 Installing   zlib-0.6.3.0 (lib)
+#12 110.3 Building     data-default-instances-dlist-0.0.1.2 (lib)
+#12 110.4 Installing   HUnit-1.6.2.0 (lib)
+#12 110.5 Completed    zlib-0.6.3.0 (lib)
+#12 110.5 Starting     happy-lib-2.1.3 (lib:frontend)
+#12 110.6 Building     happy-lib-2.1.3 (lib:tabular)
+#12 110.7 Installing   data-default-instances-dlist-0.0.1.2 (lib)
+#12 110.7 Completed    HUnit-1.6.2.0 (lib)
+#12 110.7 Starting     contravariant-1.5.5 (lib)
+#12 110.9 Completed    data-default-instances-dlist-0.0.1.2 (lib)
+#12 111.0 Starting     data-default-instances-old-locale-0.0.1.2 (lib)
+#12 111.3 Building     happy-lib-2.1.3 (lib:frontend)
+#12 111.3 Building     contravariant-1.5.5 (lib)
+#12 111.5 Installing   ansi-terminal-types-0.11.5 (lib)
+#12 111.6 Building     data-default-instances-old-locale-0.0.1.2 (lib)
+#12 111.7 Completed    ansi-terminal-types-0.11.5 (lib)
+#12 111.8 Starting     regex-tdfa-1.3.2.2 (lib)
+#12 112.0 Installing   data-default-instances-old-locale-0.0.1.2 (lib)
+#12 112.3 Completed    data-default-instances-old-locale-0.0.1.2 (lib)
+#12 112.3 Starting     hashable-1.4.4.0 (lib)
+#12 112.4 Building     regex-tdfa-1.3.2.2 (lib)
+#12 112.9 Installing   contravariant-1.5.5 (lib)
+#12 113.1 Building     hashable-1.4.4.0 (lib)
+#12 113.2 Completed    contravariant-1.5.5 (lib)
+#12 113.2 Starting     doclayout-0.4.0.1 (lib)
+#12 113.5 Installing   memory-0.18.0 (lib)
+#12 113.8 Completed    memory-0.18.0 (lib)
+#12 113.8 Starting     random-1.2.1.3 (lib)
+#12 113.8 Building     doclayout-0.4.0.1 (lib)
+#12 113.9 Installing   happy-lib-2.1.3 (lib:tabular)
+#12 114.2 Completed    happy-lib-2.1.3 (lib:tabular)
+#12 114.2 Starting     foldable1-classes-compat-0.1.1 (lib)
+#12 114.4 Building     random-1.2.1.3 (lib)
+#12 114.9 Building     foldable1-classes-compat-0.1.1 (lib)
+#12 116.7 Installing   blaze-markup-0.8.3.0 (lib)
+#12 117.0 Completed    blaze-markup-0.8.3.0 (lib)
+#12 117.0 Starting     distributive-0.6.2.1 (lib)
+#12 117.3 Installing   hashable-1.4.4.0 (lib)
+#12 117.5 Installing   foldable1-classes-compat-0.1.1 (lib)
+#12 117.6 Completed    hashable-1.4.4.0 (lib)
+#12 117.6 Starting     boring-0.2.2 (lib)
+#12 117.6 Building     distributive-0.6.2.1 (lib)
+#12 117.8 Completed    foldable1-classes-compat-0.1.1 (lib)
+#12 117.8 Starting     integer-conversion-0.1.0.1 (lib)
+#12 118.3 Building     boring-0.2.2 (lib)
+#12 118.6 Building     integer-conversion-0.1.0.1 (lib)
+#12 118.9 Installing   happy-lib-2.1.3 (lib:frontend)
+#12 118.9 Installing   boring-0.2.2 (lib)
+#12 118.9 Installing   distributive-0.6.2.1 (lib)
+#12 119.2 Completed    boring-0.2.2 (lib)
+#12 119.2 Starting     network-uri-2.6.4.2 (lib)
+#12 119.4 Completed    happy-lib-2.1.3 (lib:frontend)
+#12 119.4 Starting     transformers-base-0.4.6 (lib)
+#12 119.5 Completed    distributive-0.6.2.1 (lib)
+#12 119.5 Starting     mmorph-1.2.0 (lib)
+#12 119.5 Installing   integer-conversion-0.1.0.1 (lib)
+#12 119.8 Completed    integer-conversion-0.1.0.1 (lib)
+#12 119.8 Starting     lpeg-1.0.4 (lib)
+#12 119.9 Building     network-uri-2.6.4.2 (lib)
+#12 120.0 Building     transformers-base-0.4.6 (lib)
+#12 120.1 Building     mmorph-1.2.0 (lib)
+#12 120.5 Building     lpeg-1.0.4 (lib)
+#12 120.8 Installing   transformers-base-0.4.6 (lib)
+#12 121.2 Completed    transformers-base-0.4.6 (lib)
+#12 121.2 Starting     hslua-core-2.2.1 (lib)
+#12 121.3 Installing   doclayout-0.4.0.1 (lib)
+#12 121.3 Installing   mmorph-1.2.0 (lib)
+#12 121.6 Completed    mmorph-1.2.0 (lib)
+#12 121.6 Starting     resourcet-1.3.0 (lib)
+#12 121.7 Completed    doclayout-0.4.0.1 (lib)
+#12 121.7 Starting     th-lift-0.8.6 (lib)
+#12 121.8 Building     hslua-core-2.2.1 (lib)
+#12 122.1 Installing   unicode-data-0.6.0 (lib)
+#12 122.2 Building     resourcet-1.3.0 (lib)
+#12 122.4 Building     th-lift-0.8.6 (lib)
+#12 122.5 Completed    unicode-data-0.6.0 (lib)
+#12 122.5 Starting     vector-0.13.2.0 (lib)
+#12 123.1 Building     vector-0.13.2.0 (lib)
+#12 123.5 Installing   lpeg-1.0.4 (lib)
+#12 123.8 Completed    lpeg-1.0.4 (lib)
+#12 123.9 Starting     unix-2.7.3 (all, legacy fallback)
+#12 124.1 Installing   th-lift-0.8.6 (lib)
+#12 124.4 Completed    th-lift-0.8.6 (lib)
+#12 124.4 Starting     time-locale-compat-0.1.1.5 (lib)
+#12 124.5 Installing   resourcet-1.3.0 (lib)
+#12 124.8 Completed    resourcet-1.3.0 (lib)
+#12 124.8 Starting     cookie-0.5.0 (lib)
+#12 125.0 Building     time-locale-compat-0.1.1.5 (lib)
+#12 125.4 Installing   time-locale-compat-0.1.1.5 (lib)
+#12 125.5 Building     cookie-0.5.0 (lib)
+#12 125.7 Installing   hslua-core-2.2.1 (lib)
+#12 125.8 Completed    time-locale-compat-0.1.1.5 (lib)
+#12 125.9 Starting     ansi-terminal-1.0.2 (lib)
+#12 126.1 Completed    hslua-core-2.2.1 (lib)
+#12 126.1 Starting     data-default-0.7.1.3 (lib)
+#12 126.5 Building     ansi-terminal-1.0.2 (lib)
+#12 126.6 Installing   network-uri-2.6.4.2 (lib)
+#12 126.8 Building     data-default-0.7.1.3 (lib)
+#12 127.0 Completed    network-uri-2.6.4.2 (lib)
+#12 127.0 Starting     lrucache-1.2.0.1 (all, legacy fallback)
+#12 127.0 Installing   cookie-0.5.0 (lib)
+#12 127.4 Completed    cookie-0.5.0 (lib)
+#12 127.4 Starting     pem-0.2.4 (lib)
+#12 127.4 Installing   data-default-0.7.1.3 (lib)
+#12 127.7 Building     lrucache-1.2.0.1 (all, legacy fallback)
+#12 127.8 Completed    data-default-0.7.1.3 (lib)
+#12 127.9 Starting     cryptonite-0.30 (lib)
+#12 128.1 Building     pem-0.2.4 (lib)
+#12 128.1 Installing   ansi-terminal-1.0.2 (lib)
+#12 128.4 Completed    ansi-terminal-1.0.2 (lib)
+#12 128.5 Starting     crypton-1.0.1 (lib)
+#12 128.6 Installing   random-1.2.1.3 (lib)
+#12 128.6 Building     cryptonite-0.30 (lib)
+#12 129.0 Completed    random-1.2.1.3 (lib)
+#12 129.0 Starting     asn1-types-0.3.4 (all, legacy fallback)
+#12 129.0 Installing   pem-0.2.4 (lib)
+#12 129.1 Building     crypton-1.0.1 (lib)
+#12 129.3 Completed    pem-0.2.4 (lib)
+#12 129.4 Starting     happy-lib-2.1.3 (lib:backend-lalr)
+#12 129.6 Building     asn1-types-0.3.4 (all, legacy fallback)
+#12 130.1 Building     happy-lib-2.1.3 (lib:backend-lalr)
+#12 130.2 Installing   lrucache-1.2.0.1 (all, legacy fallback)
+#12 130.5 Completed    lrucache-1.2.0.1 (all, legacy fallback)
+#12 130.6 Starting     happy-lib-2.1.3 (lib:backend-glr)
+#12 131.2 Building     happy-lib-2.1.3 (lib:backend-glr)
+#12 132.1 Installing   asn1-types-0.3.4 (all, legacy fallback)
+#12 132.4 Completed    asn1-types-0.3.4 (all, legacy fallback)
+#12 132.5 Starting     blaze-html-0.9.2.0 (lib)
+#12 132.8 Building     unix-2.7.3 (all, legacy fallback)
+#12 133.2 Building     blaze-html-0.9.2.0 (lib)
+#12 134.4 Installing   happy-lib-2.1.3 (lib:backend-glr)
+#12 134.8 Completed    happy-lib-2.1.3 (lib:backend-glr)
+#12 134.8 Starting     unordered-containers-0.2.20 (lib)
+#12 135.6 Building     unordered-containers-0.2.20 (lib)
+#12 137.0 Installing   happy-lib-2.1.3 (lib:backend-lalr)
+#12 137.3 Completed    happy-lib-2.1.3 (lib:backend-lalr)
+#12 137.4 Starting     time-compat-1.9.8 (lib)
+#12 138.1 Building     time-compat-1.9.8 (lib)
+#12 140.0 Installing   regex-tdfa-1.3.2.2 (lib)
+#12 140.3 Completed    regex-tdfa-1.3.2.2 (lib)
+#12 140.4 Starting     text-short-0.1.6 (lib)
+#12 141.1 Building     text-short-0.1.6 (lib)
+#12 141.2 Installing   time-compat-1.9.8 (lib)
+#12 141.6 Completed    time-compat-1.9.8 (lib)
+#12 141.6 Starting     scientific-0.3.7.0 (lib)
+#12 142.3 Building     scientific-0.3.7.0 (lib)
+#12 144.1 Installing   text-short-0.1.6 (lib)
+#12 144.4 Completed    text-short-0.1.6 (lib)
+#12 144.4 Starting     psqueues-0.2.8.0 (lib)
+#12 145.2 Building     psqueues-0.2.8.0 (lib)
+#12 148.5 Installing   scientific-0.3.7.0 (lib)
+#12 148.9 Completed    scientific-0.3.7.0 (lib)
+#12 148.9 Starting     data-fix-0.3.4 (lib)
+#12 149.6 Building     data-fix-0.3.4 (lib)
+#12 150.0 Installing   unix-2.7.3 (all, legacy fallback)
+#12 150.3 Completed    unix-2.7.3 (all, legacy fallback)
+#12 150.4 Starting     case-insensitive-1.2.1.0 (lib)
+#12 150.9 Installing   blaze-html-0.9.2.0 (lib)
+#12 151.0 Building     case-insensitive-1.2.1.0 (lib)
+#12 151.1 Installing   data-fix-0.3.4 (lib)
+#12 151.2 Completed    blaze-html-0.9.2.0 (lib)
+#12 151.2 Starting     async-2.2.5 (lib)
+#12 151.5 Completed    data-fix-0.3.4 (lib)
+#12 151.5 Starting     these-1.2.1 (lib)
+#12 152.0 Building     async-2.2.5 (lib)
+#12 152.2 Building     these-1.2.1 (lib)
+#12 153.3 Installing   case-insensitive-1.2.1.0 (lib)
+#12 153.6 Installing   psqueues-0.2.8.0 (lib)
+#12 153.7 Completed    case-insensitive-1.2.1.0 (lib)
+#12 153.7 Starting     indexed-traversable-0.1.4 (lib)
+#12 154.0 Completed    psqueues-0.2.8.0 (lib)
+#12 154.0 Starting     dec-0.0.6 (lib)
+#12 154.4 Installing   async-2.2.5 (lib)
+#12 154.4 Building     indexed-traversable-0.1.4 (lib)
+#12 154.6 Installing   unordered-containers-0.2.20 (lib)
+#12 154.8 Completed    async-2.2.5 (lib)
+#12 154.8 Building     dec-0.0.6 (lib)
+#12 154.8 Starting     constraints-0.14.2 (lib)
+#12 154.9 Completed    unordered-containers-0.2.20 (lib)
+#12 154.9 Starting     monad-control-1.0.3.1 (lib)
+#12 155.4 Installing   dec-0.0.6 (lib)
+#12 155.5 Building     constraints-0.14.2 (lib)
+#12 155.6 Building     monad-control-1.0.3.1 (lib)
+#12 155.7 Completed    dec-0.0.6 (lib)
+#12 155.7 Starting     gridtables-0.0.3.0 (lib)
+#12 155.8 Installing   these-1.2.1 (lib)
+#12 156.1 Completed    these-1.2.1 (lib)
+#12 156.2 Starting     unicode-transforms-0.4.0.1 (lib)
+#12 156.6 Building     gridtables-0.0.3.0 (lib)
+#12 156.6 Installing   monad-control-1.0.3.1 (lib)
+#12 156.9 Building     unicode-transforms-0.4.0.1 (lib)
+#12 157.0 Completed    monad-control-1.0.3.1 (lib)
+#12 157.0 Starting     hslua-marshalling-2.2.1 (lib)
+#12 157.7 Building     hslua-marshalling-2.2.1 (lib)
+#12 159.2 Installing   indexed-traversable-0.1.4 (lib)
+#12 159.5 Completed    indexed-traversable-0.1.4 (lib)
+#12 159.5 Starting     ansi-wl-pprint-0.6.9 (lib)
+#12 159.9 Installing   constraints-0.14.2 (lib)
+#12 160.3 Building     ansi-wl-pprint-0.6.9 (lib)
+#12 160.3 Completed    constraints-0.14.2 (lib)
+#12 160.3 Starting     uuid-types-1.0.6 (lib)
+#12 160.8 Installing   hslua-marshalling-2.2.1 (lib)
+#12 161.0 Building     uuid-types-1.0.6 (lib)
+#12 161.1 Installing   gridtables-0.0.3.0 (lib)
+#12 161.2 Completed    hslua-marshalling-2.2.1 (lib)
+#12 161.2 Starting     QuickCheck-2.14.3 (lib)
+#12 161.5 Completed    gridtables-0.0.3.0 (lib)
+#12 161.5 Starting     asn1-encoding-0.9.6 (lib)
+#12 161.7 Installing   ansi-wl-pprint-0.6.9 (lib)
+#12 161.9 Building     QuickCheck-2.14.3 (lib)
+#12 162.1 Completed    ansi-wl-pprint-0.6.9 (lib)
+#12 162.1 Starting     happy-lib-2.1.3 (lib)
+#12 162.3 Building     asn1-encoding-0.9.6 (lib)
+#12 163.1 Building     happy-lib-2.1.3 (lib)
+#12 163.2 Installing   happy-lib-2.1.3 (lib)
+#12 163.8 Completed    happy-lib-2.1.3 (lib)
+#12 164.0 Starting     text-iso8601-0.1.1 (lib)
+#12 165.6 Installing   uuid-types-1.0.6 (lib)
+#12 165.9 Building     text-iso8601-0.1.1 (lib)
+#12 166.1 Completed    uuid-types-1.0.6 (lib)
+#12 166.1 Starting     base64-0.4.2.4 (lib)
+#12 167.5 Building     base64-0.4.2.4 (lib)
+#12 169.7 Installing   asn1-encoding-0.9.6 (lib)
+#12 170.1 Completed    asn1-encoding-0.9.6 (lib)
+#12 170.2 Starting     attoparsec-0.14.4 (lib)
+#12 171.0 Building     attoparsec-0.14.4 (lib)
+#12 178.1 Installing   text-iso8601-0.1.1 (lib)
+#12 178.6 Completed    text-iso8601-0.1.1 (lib)
+#12 178.6 Starting     unix-compat-0.7.3 (lib)
+#12 179.6 Building     unix-compat-0.7.3 (lib)
+#12 181.2 Installing   unix-compat-0.7.3 (lib)
+#12 181.7 Completed    unix-compat-0.7.3 (lib)
+#12 181.7 Starting     directory-1.3.7.1 (all, legacy fallback)
+#12 183.7 Building     directory-1.3.7.1 (all, legacy fallback)
+#12 188.6 Installing   directory-1.3.7.1 (all, legacy fallback)
+#12 189.0 Completed    directory-1.3.7.1 (all, legacy fallback)
+#12 189.1 Starting     base-compat-0.13.1 (lib)
+#12 189.8 Building     base-compat-0.13.1 (lib)
+#12 190.0 Installing   QuickCheck-2.14.3 (lib)
+#12 190.5 Completed    QuickCheck-2.14.3 (lib)
+#12 190.5 Starting     http-types-0.12.4 (lib)
+#12 191.3 Building     http-types-0.12.4 (lib)
+#12 196.1 Installing   base-compat-0.13.1 (lib)
+#12 197.0 Completed    base-compat-0.13.1 (lib)
+#12 197.1 Starting     http-media-0.8.1.1 (lib)
+#12 197.8 Installing   http-types-0.12.4 (lib)
+#12 198.1 Building     http-media-0.8.1.1 (lib)
+#12 198.2 Completed    http-types-0.12.4 (lib)
+#12 198.2 Starting     hinotify-0.4.1 (lib)
+#12 199.0 Building     hinotify-0.4.1 (lib)
+#12 202.2 Installing   hinotify-0.4.1 (lib)
+#12 202.6 Installing   http-media-0.8.1.1 (lib)
+#12 202.6 Completed    hinotify-0.4.1 (lib)
+#12 202.7 Starting     vault-0.3.1.5 (lib)
+#12 203.1 Completed    http-media-0.8.1.1 (lib)
+#12 203.1 Starting     uniplate-1.6.13 (lib)
+#12 203.7 Building     vault-0.3.1.5 (lib)
+#12 203.9 Building     uniplate-1.6.13 (lib)
+#12 206.4 Installing   vault-0.3.1.5 (lib)
+#12 206.9 Completed    vault-0.3.1.5 (lib)
+#12 206.9 Starting     singleton-bool-0.1.8 (lib)
+#12 207.8 Building     singleton-bool-0.1.8 (lib)
+#12 208.2 Installing   base64-0.4.2.4 (lib)
+#12 208.7 Completed    base64-0.4.2.4 (lib)
+#12 208.7 Starting     strict-0.5 (lib)
+#12 208.7 Installing   singleton-bool-0.1.8 (lib)
+#12 209.2 Completed    singleton-bool-0.1.8 (lib)
+#12 209.2 Starting     lifted-base-0.2.3.12 (lib)
+#12 209.3 Installing   cryptonite-0.30 (lib)
+#12 209.7 Installing   crypton-1.0.1 (lib)
+#12 209.7 Building     strict-0.5 (lib)
+#12 210.1 Completed    cryptonite-0.30 (lib)
+#12 210.2 Starting     comonad-5.0.9 (lib)
+#12 210.2 Building     lifted-base-0.2.3.12 (lib)
+#12 210.4 Completed    crypton-1.0.1 (lib)
+#12 210.5 Starting     hslua-objectorientation-2.2.1 (lib)
+#12 211.1 Building     comonad-5.0.9 (lib)
+#12 211.4 Building     hslua-objectorientation-2.2.1 (lib)
+#12 212.1 Installing   unicode-transforms-0.4.0.1 (lib)
+#12 212.2 Installing   lifted-base-0.2.3.12 (lib)
+#12 212.6 Completed    unicode-transforms-0.4.0.1 (lib)
+#12 212.7 Starting     hslua-classes-2.2.0 (lib)
+#12 212.8 Completed    lifted-base-0.2.3.12 (lib)
+#12 212.9 Starting     happy-2.1.3 (exe:happy)
+#12 213.5 Building     hslua-classes-2.2.0 (lib)
+#12 213.7 Building     happy-2.1.3 (exe:happy)
+#12 214.5 Installing   comonad-5.0.9 (lib)
+#12 214.7 Installing   hslua-objectorientation-2.2.1 (lib)
+#12 214.9 Completed    comonad-5.0.9 (lib)
+#12 214.9 Starting     asn1-parse-0.9.5 (all, legacy fallback)
+#12 215.1 Completed    hslua-objectorientation-2.2.1 (lib)
+#12 215.1 Starting     zip-archive-0.4.3.2 (lib)
+#12 215.2 Installing   uniplate-1.6.13 (lib)
+#12 215.6 Completed    uniplate-1.6.13 (lib)
+#12 215.6 Starting     temporary-1.3 (lib)
+#12 215.6 Installing   hslua-classes-2.2.0 (lib)
+#12 215.7 Building     asn1-parse-0.9.5 (all, legacy fallback)
+#12 216.0 Building     zip-archive-0.4.3.2 (lib)
+#12 216.0 Completed    hslua-classes-2.2.0 (lib)
+#12 216.0 Starting     process-1.6.25.0 (all, legacy fallback)
+#12 216.1 Installing   strict-0.5 (lib)
+#12 216.4 Building     temporary-1.3 (lib)
+#12 216.7 Completed    strict-0.5 (lib)
+#12 216.7 Starting     file-embed-0.0.15.0 (lib)
+#12 216.7 Installing   asn1-parse-0.9.5 (all, legacy fallback)
+#12 216.7 Installing   happy-2.1.3 (exe:happy)
+#12 216.8 Completed    happy-2.1.3 (exe:happy)
+#12 216.8 Starting     easy-file-0.2.5 (lib)
+#12 217.1 Completed    asn1-parse-0.9.5 (all, legacy fallback)
+#12 217.1 Starting     Glob-0.10.2 (lib)
+#12 217.5 Installing   temporary-1.3 (lib)
+#12 217.5 Building     file-embed-0.0.15.0 (lib)
+#12 217.6 Building     easy-file-0.2.5 (lib)
+#12 217.9 Building     Glob-0.10.2 (lib)
+#12 218.0 Completed    temporary-1.3 (lib)
+#12 218.0 Starting     Cabal-syntax-3.10.3.0 (lib)
+#12 218.9 Building     Cabal-syntax-3.10.3.0 (lib)
+#12 219.2 Installing   easy-file-0.2.5 (lib)
+#12 219.2 Installing   file-embed-0.0.15.0 (lib)
+#12 219.2 Building     process-1.6.25.0 (all, legacy fallback)
+#12 219.6 Completed    file-embed-0.0.15.0 (lib)
+#12 219.7 Starting     base-compat-batteries-0.13.1 (lib)
+#12 219.8 Completed    easy-file-0.2.5 (lib)
+#12 219.9 Starting     http-api-data-0.6.1 (lib)
+#12 220.6 Building     base-compat-batteries-0.13.1 (lib)
+#12 220.8 Building     http-api-data-0.6.1 (lib)
+#12 222.3 Installing   Glob-0.10.2 (lib)
+#12 222.3 Installing   attoparsec-0.14.4 (lib)
+#12 222.9 Completed    Glob-0.10.2 (lib)
+#12 222.9 Starting     fsnotify-0.4.1.0 (lib)
+#12 223.1 Completed    attoparsec-0.14.4 (lib)
+#12 223.1 Starting     commonmark-0.2.6.1 (lib)
+#12 223.2 Installing   zip-archive-0.4.3.2 (lib)
+#12 223.6 Completed    zip-archive-0.4.3.2 (lib)
+#12 223.6 Starting     lifted-async-0.10.2.7 (lib)
+#12 223.7 Building     fsnotify-0.4.1.0 (lib)
+#12 224.0 Building     commonmark-0.2.6.1 (lib)
+#12 224.3 Building     lifted-async-0.10.2.7 (lib)
+#12 224.4 Installing   process-1.6.25.0 (all, legacy fallback)
+#12 224.8 Completed    process-1.6.25.0 (all, legacy fallback)
+#12 224.8 Starting     bifunctors-5.6.2 (lib)
+#12 225.6 Building     bifunctors-5.6.2 (lib)
+#12 226.5 Installing   lifted-async-0.10.2.7 (lib)
+#12 226.5 Installing   base-compat-batteries-0.13.1 (lib)
+#12 227.0 Completed    lifted-async-0.10.2.7 (lib)
+#12 227.1 Starting     hslua-packaging-2.2.1 (lib)
+#12 227.3 Completed    base-compat-batteries-0.13.1 (lib)
+#12 227.3 Starting     pretty-show-1.10 (lib)
+#12 227.5 Installing   fsnotify-0.4.1.0 (lib)
+#12 228.0 Completed    fsnotify-0.4.1.0 (lib)
+#12 228.0 Starting     x509-1.7.7 (lib)
+#12 228.0 Building     hslua-packaging-2.2.1 (lib)
+#12 228.3 Building     pretty-show-1.10 (lib)
+#12 228.8 Building     x509-1.7.7 (lib)
+#12 231.3 Installing   hslua-packaging-2.2.1 (lib)
+#12 232.0 Completed    hslua-packaging-2.2.1 (lib)
+#12 232.0 Starting     crypton-x509-1.7.7 (lib)
+#12 232.9 Building     crypton-x509-1.7.7 (lib)
+#12 234.3 Installing   pretty-show-1.10 (lib)
+#12 234.5 Installing   http-api-data-0.6.1 (lib)
+#12 234.8 Completed    pretty-show-1.10 (lib)
+#12 234.8 Starting     http-date-0.0.11 (lib)
+#12 235.1 Completed    http-api-data-0.6.1 (lib)
+#12 235.1 Starting     typed-process-0.2.12.0 (lib)
+#12 235.8 Building     http-date-0.0.11 (lib)
+#12 235.9 Building     typed-process-0.2.12.0 (lib)
+#12 238.7 Installing   http-date-0.0.11 (lib)
+#12 239.1 Installing   typed-process-0.2.12.0 (lib)
+#12 239.3 Completed    http-date-0.0.11 (lib)
+#12 239.3 Starting     optparse-applicative-0.17.1.0 (lib)
+#12 239.5 Installing   x509-1.7.7 (lib)
+#12 239.6 Completed    typed-process-0.2.12.0 (lib)
+#12 239.6 Starting     hsc2hs-0.68.10 (exe:hsc2hs)
+#12 240.0 Completed    x509-1.7.7 (lib)
+#12 240.0 Starting     hslua-module-version-1.0.3 (lib)
+#12 240.2 Building     optparse-applicative-0.17.1.0 (lib)
+#12 240.5 Building     hsc2hs-0.68.10 (exe:hsc2hs)
+#12 240.9 Building     hslua-module-version-1.0.3 (lib)
+#12 241.5 Installing   bifunctors-5.6.2 (lib)
+#12 242.0 Completed    bifunctors-5.6.2 (lib)
+#12 242.0 Starting     hslua-module-text-1.0.3.1 (lib)
+#12 242.4 Installing   hslua-module-version-1.0.3 (lib)
+#12 242.9 Building     hslua-module-text-1.0.3.1 (lib)
+#12 242.9 Completed    hslua-module-version-1.0.3 (lib)
+#12 242.9 Starting     hslua-module-system-1.0.3 (lib)
+#12 243.5 Installing   crypton-x509-1.7.7 (lib)
+#12 243.8 Building     hslua-module-system-1.0.3 (lib)
+#12 244.0 Completed    crypton-x509-1.7.7 (lib)
+#12 244.0 Starting     hslua-module-path-1.0.3 (lib)
+#12 244.6 Installing   hslua-module-text-1.0.3.1 (lib)
+#12 244.8 Building     hslua-module-path-1.0.3 (lib)
+#12 245.0 Completed    hslua-module-text-1.0.3.1 (lib)
+#12 245.0 Starting     x509-store-1.6.9 (lib)
+#12 245.9 Installing   hslua-module-system-1.0.3 (lib)
+#12 246.0 Building     x509-store-1.6.9 (lib)
+#12 246.4 Completed    hslua-module-system-1.0.3 (lib)
+#12 246.4 Starting     semigroupoids-6.0.1 (lib)
+#12 246.6 Installing   hslua-module-path-1.0.3 (lib)
+#12 247.2 Completed    hslua-module-path-1.0.3 (lib)
+#12 247.5 Building     semigroupoids-6.0.1 (lib)
+#12 248.7 Installing   x509-store-1.6.9 (lib)
+#12 249.2 Completed    x509-store-1.6.9 (lib)
+#12 249.2 Starting     x509-system-1.6.7 (lib)
+#12 249.2 Starting     x509-validation-1.6.12 (lib)
+#12 249.2 Installing   optparse-applicative-0.17.1.0 (lib)
+#12 249.8 Completed    optparse-applicative-0.17.1.0 (lib)
+#12 250.2 Building     x509-system-1.6.7 (lib)
+#12 250.3 Building     x509-validation-1.6.12 (lib)
+#12 250.4 Installing   hsc2hs-0.68.10 (exe:hsc2hs)
+#12 250.5 Completed    hsc2hs-0.68.10 (exe:hsc2hs)
+#12 250.5 Starting     old-time-1.1.0.4 (all, legacy fallback)
+#12 250.6 Starting     network-3.2.7.0 (all, legacy fallback)
+#12 251.4 Installing   x509-system-1.6.7 (lib)
+#12 251.8 Completed    x509-system-1.6.7 (lib)
+#12 252.8 Installing   x509-validation-1.6.12 (lib)
+#12 252.9 Building     old-time-1.1.0.4 (all, legacy fallback)
+#12 253.2 Completed    x509-validation-1.6.12 (lib)
+#12 253.9 Building     network-3.2.7.0 (all, legacy fallback)
+#12 256.0 Installing   old-time-1.1.0.4 (all, legacy fallback)
+#12 256.6 Completed    old-time-1.1.0.4 (all, legacy fallback)
+#12 256.6 Starting     unix-time-0.4.16 (all, legacy fallback)
+#12 258.0 Installing   semigroupoids-6.0.1 (lib)
+#12 258.4 Completed    semigroupoids-6.0.1 (lib)
+#12 259.1 Building     unix-time-0.4.16 (all, legacy fallback)
+#12 261.5 Installing   unix-time-0.4.16 (all, legacy fallback)
+#12 261.8 Completed    unix-time-0.4.16 (all, legacy fallback)
+#12 261.9 Starting     network-control-0.1.3 (lib)
+#12 261.9 Starting     fast-logger-3.2.5 (lib)
+#12 262.6 Building     network-control-0.1.3 (lib)
+#12 262.7 Building     fast-logger-3.2.5 (lib)
+#12 263.5 Installing   network-control-0.1.3 (lib)
+#12 263.9 Completed    network-control-0.1.3 (lib)
+#12 264.6 Installing   network-3.2.7.0 (all, legacy fallback)
+#12 265.0 Completed    network-3.2.7.0 (all, legacy fallback)
+#12 265.1 Starting     wai-3.2.4 (lib)
+#12 265.1 Starting     streaming-commons-0.2.2.6 (lib)
+#12 265.1 Starting     socks-0.6.1 (lib)
+#12 265.2 Starting     tls-1.6.0 (lib)
+#12 266.0 Building     wai-3.2.4 (lib)
+#12 266.0 Building     socks-0.6.1 (lib)
+#12 266.0 Building     streaming-commons-0.2.2.6 (lib)
+#12 266.0 Building     tls-1.6.0 (lib)
+#12 266.5 Installing   fast-logger-3.2.5 (lib)
+#12 267.0 Completed    fast-logger-3.2.5 (lib)
+#12 267.0 Starting     simple-sendfile-0.2.32 (lib)
+#12 267.2 Installing   wai-3.2.4 (lib)
+#12 267.7 Completed    wai-3.2.4 (lib)
+#12 267.7 Starting     recv-0.1.0 (lib)
+#12 267.9 Building     simple-sendfile-0.2.32 (lib)
+#12 268.9 Building     recv-0.1.0 (lib)
+#12 269.5 Installing   simple-sendfile-0.2.32 (lib)
+#12 270.0 Installing   recv-0.1.0 (lib)
+#12 270.0 Completed    simple-sendfile-0.2.32 (lib)
+#12 270.0 Starting     iproute-1.7.15 (lib)
+#12 270.5 Completed    recv-0.1.0 (lib)
+#12 270.5 Starting     http-semantics-0.3.0 (lib)
+#12 271.2 Building     iproute-1.7.15 (lib)
+#12 271.3 Building     http-semantics-0.3.0 (lib)
+#12 274.0 Installing   socks-0.6.1 (lib)
+#12 274.5 Completed    socks-0.6.1 (lib)
+#12 274.5 Starting     wai-logger-2.5.0 (lib)
+#12 275.5 Installing   streaming-commons-0.2.2.6 (lib)
+#12 275.5 Building     wai-logger-2.5.0 (lib)
+#12 275.6 Installing   vector-0.13.2.0 (lib)
+#12 276.1 Completed    streaming-commons-0.2.2.6 (lib)
+#12 276.2 Installing   http-semantics-0.3.0 (lib)
+#12 276.3 Completed    vector-0.13.2.0 (lib)
+#12 276.3 Starting     th-lift-instances-0.1.20 (lib)
+#12 276.3 Starting     indexed-traversable-instances-0.1.2 (lib)
+#12 276.8 Completed    http-semantics-0.3.0 (lib)
+#12 276.8 Starting     bitvec-1.1.5.0 (lib)
+#12 277.3 Building     th-lift-instances-0.1.20 (lib)
+#12 277.4 Building     indexed-traversable-instances-0.1.2 (lib)
+#12 277.8 Building     bitvec-1.1.5.0 (lib)
+#12 277.8 Installing   wai-logger-2.5.0 (lib)
+#12 278.5 Completed    wai-logger-2.5.0 (lib)
+#12 278.5 Starting     JuicyPixels-3.3.9 (lib)
+#12 278.6 Installing   th-lift-instances-0.1.20 (lib)
+#12 279.0 Installing   indexed-traversable-instances-0.1.2 (lib)
+#12 279.1 Completed    th-lift-instances-0.1.20 (lib)
+#12 279.3 Starting     unicode-collation-0.1.3.6 (lib)
+#12 279.5 Building     JuicyPixels-3.3.9 (lib)
+#12 279.6 Installing   iproute-1.7.15 (lib)
+#12 279.6 Completed    indexed-traversable-instances-0.1.2 (lib)
+#12 279.7 Starting     witherable-0.4.2 (lib)
+#12 280.0 Completed    iproute-1.7.15 (lib)
+#12 280.1 Starting     semialign-1.3.1 (lib)
+#12 280.4 Building     unicode-collation-0.1.3.6 (lib)
+#12 280.6 Building     witherable-0.4.2 (lib)
+#12 280.9 Building     semialign-1.3.1 (lib)
+#12 287.3 Installing   witherable-0.4.2 (lib)
+#12 287.3 Installing   semialign-1.3.1 (lib)
+#12 287.8 Completed    semialign-1.3.1 (lib)
+#12 288.1 Completed    witherable-0.4.2 (lib)
+#12 288.2 Starting     http-client-0.7.18 (lib)
+#12 288.5 Starting     http2-5.3.9 (lib)
+#12 289.3 Building     http-client-0.7.18 (lib)
+#12 289.5 Building     http2-5.3.9 (lib)
+#12 296.4 Installing   commonmark-0.2.6.1 (lib)
+#12 297.6 Completed    commonmark-0.2.6.1 (lib)
+#12 298.0 Starting     aeson-2.1.2.1 (lib)
+#12 299.2 Building     aeson-2.1.2.1 (lib)
+#12 306.4 Installing   http-client-0.7.18 (lib)
+#12 307.2 Completed    http-client-0.7.18 (lib)
+#12 307.2 Starting     commonmark-extensions-0.2.5.6 (lib)
+#12 308.4 Building     commonmark-extensions-0.2.5.6 (lib)
+#12 310.9 Installing   unicode-collation-0.1.3.6 (lib)
+#12 311.4 Completed    unicode-collation-0.1.3.6 (lib)
+#12 312.9 Installing   tls-1.6.0 (lib)
+#12 313.1 Installing   http2-5.3.9 (lib)
+#12 313.5 Completed    tls-1.6.0 (lib)
+#12 313.5 Starting     connection-0.3.1 (lib)
+#12 313.8 Completed    http2-5.3.9 (lib)
+#12 313.8 Starting     warp-3.4.7 (lib)
+#12 314.4 Building     connection-0.3.1 (lib)
+#12 314.7 Building     warp-3.4.7 (lib)
+#12 318.2 Installing   connection-0.3.1 (lib)
+#12 319.0 Completed    connection-0.3.1 (lib)
+#12 319.0 Starting     http-client-tls-0.3.6.1 (lib)
+#12 321.1 Building     http-client-tls-0.3.6.1 (lib)
+#12 325.7 Installing   http-client-tls-0.3.6.1 (lib)
+#12 326.9 Completed    http-client-tls-0.3.6.1 (lib)
+#12 330.3 Installing   bitvec-1.1.5.0 (lib)
+#12 330.9 Completed    bitvec-1.1.5.0 (lib)
+#12 330.9 Starting     vector-algorithms-0.9.0.3 (lib)
+#12 331.1 Installing   warp-3.4.7 (lib)
+#12 331.9 Completed    warp-3.4.7 (lib)
+#12 332.2 Building     vector-algorithms-0.9.0.3 (lib)
+#12 346.9 Installing   commonmark-extensions-0.2.5.6 (lib)
+#12 347.5 Completed    commonmark-extensions-0.2.5.6 (lib)
+#12 377.2 Installing   vector-algorithms-0.9.0.3 (lib)
+#12 377.6 Completed    vector-algorithms-0.9.0.3 (lib)
+#12 377.7 Starting     mono-traversable-1.0.21.0 (lib)
+#12 378.5 Building     mono-traversable-1.0.21.0 (lib)
+#12 389.7 Installing   Cabal-syntax-3.10.3.0 (lib)
+#12 391.0 Completed    Cabal-syntax-3.10.3.0 (lib)
+#12 391.2 Starting     Cabal-3.10.3.0 (lib)
+#12 392.0 Building     Cabal-3.10.3.0 (lib)
+#12 403.8 Installing   aeson-2.1.2.1 (lib)
+#12 404.3 Completed    aeson-2.1.2.1 (lib)
+#12 404.4 Starting     pandoc-types-1.22.2.1 (lib)
+#12 404.4 Starting     ipynb-0.2 (lib)
+#12 404.4 Starting     hslua-aeson-2.2.1 (lib)
+#12 404.4 Starting     servant-0.20.2 (lib)
+#12 404.4 Starting     wai-extra-3.1.17 (lib)
+#12 405.3 Building     ipynb-0.2 (lib)
+#12 405.3 Building     hslua-aeson-2.2.1 (lib)
+#12 405.3 Building     pandoc-types-1.22.2.1 (lib)
+#12 405.3 Building     wai-extra-3.1.17 (lib)
+#12 405.4 Building     servant-0.20.2 (lib)
+#12 407.9 Installing   hslua-aeson-2.2.1 (lib)
+#12 408.6 Completed    hslua-aeson-2.2.1 (lib)
+#12 408.7 Starting     doctemplates-0.10.0.2 (lib)
+#12 410.0 Building     doctemplates-0.10.0.2 (lib)
+#12 415.9 Installing   ipynb-0.2 (lib)
+#12 417.1 Completed    ipynb-0.2 (lib)
+#12 417.2 Starting     attoparsec-aeson-2.1.0.0 (lib)
+#12 418.8 Building     attoparsec-aeson-2.1.0.0 (lib)
+#12 419.1 Installing   attoparsec-aeson-2.1.0.0 (lib)
+#12 419.3 Installing   servant-0.20.2 (lib)
+#12 420.4 Completed    attoparsec-aeson-2.1.0.0 (lib)
+#12 420.5 Starting     aeson-pretty-0.8.10 (lib)
+#12 421.0 Completed    servant-0.20.2 (lib)
+#12 421.1 Starting     hslua-2.2.1 (lib)
+#12 422.2 Building     aeson-pretty-0.8.10 (lib)
+#12 422.6 Building     hslua-2.2.1 (lib)
+#12 425.8 Installing   hslua-2.2.1 (lib)
+#12 427.2 Installing   aeson-pretty-0.8.10 (lib)
+#12 427.3 Completed    hslua-2.2.1 (lib)
+#12 427.3 Starting     hslua-module-doclayout-1.0.4 (lib)
+#12 428.5 Completed    aeson-pretty-0.8.10 (lib)
+#12 429.4 Building     hslua-module-doclayout-1.0.4 (lib)
+#12 429.7 Installing   wai-extra-3.1.17 (lib)
+#12 430.8 Completed    wai-extra-3.1.17 (lib)
+#12 430.9 Starting     wai-app-static-3.1.9 (lib)
+#12 432.7 Building     wai-app-static-3.1.9 (lib)
+#12 435.6 Installing   doctemplates-0.10.0.2 (lib)
+#12 436.7 Installing   hslua-module-doclayout-1.0.4 (lib)
+#12 436.9 Completed    doctemplates-0.10.0.2 (lib)
+#12 437.7 Completed    hslua-module-doclayout-1.0.4 (lib)
+#12 437.9 Installing   JuicyPixels-3.3.9 (lib)
+#12 438.8 Completed    JuicyPixels-3.3.9 (lib)
+#12 441.0 Installing   wai-app-static-3.1.9 (lib)
+#12 441.6 Completed    wai-app-static-3.1.9 (lib)
+#12 441.6 Starting     servant-server-0.20.2 (lib)
+#12 442.5 Building     servant-server-0.20.2 (lib)
+#12 443.4 Installing   mono-traversable-1.0.21.0 (lib)
+#12 443.8 Completed    mono-traversable-1.0.21.0 (lib)
+#12 443.8 Starting     conduit-1.3.6 (lib)
+#12 444.5 Building     conduit-1.3.6 (lib)
+#12 449.2 Installing   servant-server-0.20.2 (lib)
+#12 449.7 Completed    servant-server-0.20.2 (lib)
+#12 454.4 Installing   pandoc-types-1.22.2.1 (lib)
+#12 454.7 Completed    pandoc-types-1.22.2.1 (lib)
+#12 454.7 Starting     commonmark-pandoc-0.2.2.3 (lib)
+#12 454.8 Starting     pandoc-lua-marshal-0.1.7 (lib)
+#12 455.3 Starting     texmath-0.12.5.5 (lib)
+#12 455.4 Building     commonmark-pandoc-0.2.2.3 (lib)
+#12 455.4 Building     pandoc-lua-marshal-0.1.7 (lib)
+#12 455.5 Installing   conduit-1.3.6 (lib)
+#12 455.8 Completed    conduit-1.3.6 (lib)
+#12 455.9 Starting     libyaml-0.1.4 (lib)
+#12 455.9 Starting     conduit-extra-1.3.6 (lib)
+#12 456.0 Building     texmath-0.12.5.5 (lib)
+#12 456.6 Building     libyaml-0.1.4 (lib)
+#12 456.6 Building     conduit-extra-1.3.6 (lib)
+#12 458.0 Installing   commonmark-pandoc-0.2.2.3 (lib)
+#12 458.5 Completed    commonmark-pandoc-0.2.2.3 (lib)
+#12 460.4 Installing   libyaml-0.1.4 (lib)
+#12 460.8 Completed    libyaml-0.1.4 (lib)
+#12 460.9 Starting     yaml-0.11.11.2 (lib)
+#12 461.6 Building     yaml-0.11.11.2 (lib)
+#12 461.7 Installing   conduit-extra-1.3.6 (lib)
+#12 462.1 Completed    conduit-extra-1.3.6 (lib)
+#12 462.1 Starting     http-conduit-2.3.9.1 (lib)
+#12 462.8 Building     http-conduit-2.3.9.1 (lib)
+#12 465.2 Installing   http-conduit-2.3.9.1 (lib)
+#12 465.8 Completed    http-conduit-2.3.9.1 (lib)
+#12 466.6 Installing   pandoc-lua-marshal-0.1.7 (lib)
+#12 466.9 Completed    pandoc-lua-marshal-0.1.7 (lib)
+#12 467.1 Installing   yaml-0.11.11.2 (lib)
+#12 467.4 Completed    yaml-0.11.11.2 (lib)
+#12 487.8 Installing   Cabal-3.10.3.0 (lib)
+#12 488.3 Completed    Cabal-3.10.3.0 (lib)
+#12 488.4 Starting     cabal-doctest-1.0.11 (lib)
+#12 488.9 Building     cabal-doctest-1.0.11 (lib)
+#12 490.4 Installing   cabal-doctest-1.0.11 (lib)
+#12 490.7 Completed    cabal-doctest-1.0.11 (lib)
+#12 490.7 Starting     xml-conduit-1.9.1.4 (all, legacy fallback)
+#12 493.2 Building     xml-conduit-1.9.1.4 (all, legacy fallback)
+#12 502.9 Installing   xml-conduit-1.9.1.4 (all, legacy fallback)
+#12 504.0 Completed    xml-conduit-1.9.1.4 (all, legacy fallback)
+#12 504.1 Starting     skylighting-core-0.13.4.1 (lib)
+#12 504.2 Starting     citeproc-0.8.1.2 (lib)
+#12 504.7 Building     skylighting-core-0.13.4.1 (lib)
+#12 504.7 Building     citeproc-0.8.1.2 (lib)
+#12 512.2 Installing   texmath-0.12.5.5 (lib)
+#12 513.1 Completed    texmath-0.12.5.5 (lib)
+#12 524.5 Installing   skylighting-core-0.13.4.1 (lib)
+#12 524.9 Completed    skylighting-core-0.13.4.1 (lib)
+#12 524.9 Starting     skylighting-format-blaze-html-0.1.1.3 (lib)
+#12 524.9 Starting     skylighting-format-ansi-0.1 (lib)
+#12 524.9 Starting     skylighting-format-latex-0.1 (lib)
+#12 524.9 Starting     skylighting-format-context-0.1.0.2 (lib)
+#12 525.5 Building     skylighting-format-latex-0.1 (lib)
+#12 525.5 Building     skylighting-format-ansi-0.1 (lib)
+#12 525.5 Building     skylighting-format-blaze-html-0.1.1.3 (lib)
+#12 525.6 Building     skylighting-format-context-0.1.0.2 (lib)
+#12 526.7 Installing   skylighting-format-latex-0.1 (lib)
+#12 526.7 Installing   skylighting-format-context-0.1.0.2 (lib)
+#12 527.0 Installing   skylighting-format-blaze-html-0.1.1.3 (lib)
+#12 527.3 Completed    skylighting-format-latex-0.1 (lib)
+#12 527.4 Completed    skylighting-format-context-0.1.0.2 (lib)
+#12 527.6 Completed    skylighting-format-blaze-html-0.1.1.3 (lib)
+#12 527.7 Installing   skylighting-format-ansi-0.1 (lib)
+#12 528.1 Completed    skylighting-format-ansi-0.1 (lib)
+#12 528.1 Starting     skylighting-0.13.4.1 (lib)
+#12 528.7 Building     skylighting-0.13.4.1 (lib)
+#12 535.6 Installing   skylighting-0.13.4.1 (lib)
+#12 536.1 Completed    skylighting-0.13.4.1 (lib)
+#12 537.4 Installing   citeproc-0.8.1.2 (lib)
+#12 537.8 Completed    citeproc-0.8.1.2 (lib)
+#12 538.0 Starting     pandoc-2.19.2 (lib)
+#12 538.6 Building     pandoc-2.19.2 (lib)
+#12 818.1 Installing   pandoc-2.19.2 (lib)
+#12 818.9 Completed    pandoc-2.19.2 (lib)
+#12 819.0 Starting     hakyll-4.15.1.1 (lib)
+#12 819.7 Building     hakyll-4.15.1.1 (lib)
+#12 832.8 Installing   hakyll-4.15.1.1 (lib)
+#12 833.3 Completed    hakyll-4.15.1.1 (lib)
+#12 DONE 833.7s
+
+#13 [site stage-1  9/10] WORKDIR /app
+#13 DONE 0.0s
+
+#14 [site stage-1 10/10] COPY . .
+#14 DONE 0.0s
+
+#15 [site] exporting to image
+#15 exporting layers
+#15 exporting layers 6.1s done
+#15 writing image sha256:6700cfe524909279176d8c6b9b37e663c8c1bf92815176cc26b22e6149a12fd1 done
+#15 naming to docker.io/library/compiled-website-site done
+#15 DONE 6.1s
+ Network compiled-website_default  Creating
+ Network compiled-website_default  Created
+ Container compiled-website-site-1  Creating
+ Container compiled-website-site-1  Created
+Attaching to site-1
+site-1  | Error: cabal: unrecognized 'run' option `--host=0.0.0.0'
+[Ksite-1 exited with code 1

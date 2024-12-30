@@ -1,3 +1,15 @@
+FROM jaspervdj/hakyll:latest
+
+WORKDIR /site
+
+# Copy only the source files we need
+COPY content ./content
+COPY templates ./templates
+COPY app ./app
+COPY compiled-website.cabal ./
+
+# Command to watch for changes
+CMD ["cabal", "run", "site", "watch", "--host=0.0.0.0"]
 FROM haskell:9.4
 
 WORKDIR /app
@@ -9,22 +21,25 @@ RUN apt-get update && \
     zlib1g-dev \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy only the package configuration files first
+# Create a directory just for dependency installation
+RUN mkdir -p /opt/build
+WORKDIR /opt/build
+
+# Copy only files needed for dependency installation
 COPY compiled-website.cabal ./
 COPY cabal.project* ./
 
-# Install dependencies (this layer will be cached if dependencies don't change)
+# Install dependencies into a separate layer
 RUN cabal update && \
-    cabal build --only-dependencies
+    cabal build --only-dependencies && \
+    cabal clean
+
+# Switch back to app directory for actual build
+WORKDIR /app
 
 # Copy the rest of the application
 COPY . .
 
-# Build the application
-RUN cabal build
-
-# Expose the development server port
 EXPOSE 8000
 
-# Command to run the site
 CMD ["cabal", "run", "site", "watch", "--host=0.0.0.0"]
