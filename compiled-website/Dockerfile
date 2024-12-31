@@ -1,16 +1,4 @@
-FROM jaspervdj/hakyll:latest
-
-WORKDIR /site
-
-# Copy only the source files we need
-COPY content ./content
-COPY templates ./templates
-COPY app ./app
-COPY compiled-website.cabal ./
-
-# Command to watch for changes
-CMD ["cabal", "run", "site", "watch", "--host=0.0.0.0"]
-FROM haskell:9.4
+FROM haskell:9.4 as builder
 
 WORKDIR /app
 
@@ -21,25 +9,28 @@ RUN apt-get update && \
     zlib1g-dev \
     && rm -rf /var/lib/apt/lists/*
 
-# Create a directory just for dependency installation
-RUN mkdir -p /opt/build
-WORKDIR /opt/build
-
-# Copy only files needed for dependency installation
+# Copy build files
 COPY compiled-website.cabal ./
-COPY cabal.project* ./
+COPY app ./app
+COPY src ./src
+COPY config ./config
+COPY content ./content
+COPY templates ./templates
 
-# Install dependencies into a separate layer
+# Build the site generator
 RUN cabal update && \
-    cabal build --only-dependencies && \
-    cabal clean
+    cabal build --only-dependencies -j4 && \
+    cabal build
 
-# Switch back to app directory for actual build
-WORKDIR /app
+# Generate the static site
+RUN cabal run site build
 
-# Copy the rest of the application
-COPY . .
+# Second stage - nginx to serve the static files
+FROM nginx:alpine
 
-EXPOSE 8000
+# Copy the generated static site from the builder
+COPY --from=builder /app/_site /usr/share/nginx/html
 
-CMD ["cabal", "run", "site", "watch", "--host=0.0.0.0"]
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]

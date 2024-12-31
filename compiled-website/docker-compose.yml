@@ -3,7 +3,4 @@ services:
   site:
     build: .
     ports:
-      - "8000:8000"
-    volumes:
-      - ./content:/site/content
-      - ./templates:/site/templates
+      - "80:80"

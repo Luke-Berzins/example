@@ -1,12 +1,12 @@
-{-# LANGUAGE OverloadedStrings #-}
-import           Hakyll
+-- Create an index.html from your posts
+create ["index.html"] $ do
+    route idRoute
+    compile $ do
+        posts <- loadAll "content/posts/*"
+        let indexCtx =
+                listField "posts" defaultContext (return posts) <>
+                defaultContext
 
-main :: IO ()
-main = hakyll $ do
-    match "content/posts/*" $ do
-        route   $ setExtension "html"
-        compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/default.html" defaultContext
+        makeItem ""
+            >>= loadAndApplyTemplate "templates/default.html" indexCtx
             >>= relativizeUrls
-
-    match "templates/*" $ compile templateBodyCompiler
